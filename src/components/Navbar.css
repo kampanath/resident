@@ -1,0 +1,88 @@
+.navbar {
+    background-color: rgba(238, 222, 210, 0.616);
+}
+
+
+.logoBrand {
+    max-width: 200px;
+   
+}
+
+@media screen and (max-width: 992px) {
+
+    .navbar {
+        background-color: rgba(238, 222, 210, 1);
+    }
+
+    .logoBrand {
+        padding: 0;
+        position:relative;
+        margin: 0;
+        left:15%;
+        width:60%;
+    }
+
+    .navbar-brand  {
+        width:50%;
+        margin: auto;
+    }
+}
+
+.navbar-toggler {
+    opacity: 0%;
+    z-index: 1;
+
+}
+
+
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after {
+    background-color: black;
+    width: 35px;
+    height: 2.8px;
+    border-radius: 5px;
+    position:absolute;
+    transition: all 0.5s;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+    content: "";
+}
+
+.menu-icon::before {
+    transform: translate( -0px,-7px );
+}
+
+.menu-icon::after {
+    transform: translate( -0px,  7px );
+}
+
+.menu-icon {
+    transform: translate( 9px,-18px );
+    opacity: 100%;
+
+    background-color: rgba(0, 0, 0,0);
+
+}
+
+.menu-icon.open::after {
+    background-color: rgb(255, 0, 0);
+    transform:translateY(-5px) rotate(45deg);
+
+    }
+
+.menu-icon.open::before {
+    background-color: rgb(255, 0, 0);
+    transform:translateY(-5px) rotate(-45deg);
+    
+}
+
+@media screen and (min-width: 992px) {
+    .menu-icon {
+        display : none ;
+    }
+}
