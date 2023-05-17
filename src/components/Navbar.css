@@ -8,6 +8,11 @@
    
 }
 
+.navbar-brand  {
+
+ 
+}
+
 @media screen and (max-width: 992px) {
 
     .navbar {
@@ -15,23 +20,27 @@
     }
 
     .logoBrand {
-        padding: 0;
-        position:relative;
-        margin: 0;
-        left:15%;
+      
         width:60%;
     }
 
     .navbar-brand  {
         width:50%;
-        margin: auto;
+        position:relative;
+        top: 20%;
+        left:35%;
     }
 }
 
 .navbar-toggler {
     opacity: 0%;
     z-index: 1;
+}
 
+.toggler-container {
+    position:absolute;
+    top: 1.2em;
+    right:1em;
 }
 
 

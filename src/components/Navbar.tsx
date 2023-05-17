@@ -20,6 +20,7 @@ const Navbar = () => {
     
     return (
         <>
+        
         <nav className="navbar navbar-expand-lg bg-body-tertiary p-3 p-lg-4" >
             <div className="container-fluid bg-info" >
                 <a className="navbar-brand bg-danger" href="#">
@@ -33,7 +34,7 @@ const Navbar = () => {
                 </button>
                 */}
 
-                <div>
+                <div className="toggler-container bg-primary">
                     <button className="navbar-toggler"  type="button" onClick={handleClick} data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon"></span>
                     </button>

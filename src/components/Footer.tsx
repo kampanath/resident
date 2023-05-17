@@ -1,10 +1,11 @@
+import "./Footer.css";
 
 
 const Footer = () => {
     return ( 
-        <div style={ {height: "300px",backgroundColor:"red" } }>
+        <footer  style={ {height: "300px"} }>
                 FOOTER
-        </div>
+        </footer>
     )
 }
 
