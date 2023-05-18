@@ -1,5 +1,24 @@
 .about {
+    /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    padding-top: calc(7em + 0vh);
+    margin-top: calc(0em + 15vh);
+
     width:100vw;
     height:500px;
-    background-color: darkolivegreen;
+    background-color: rgba(232, 212, 195, 1);
+
+  
+
 }
+
+@media screen and (max-width: 992px) {
+
+     /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    .about {
+        padding-top: calc(5em + 0vh);
+        margin-top: calc(0em + 5vh);
+    }
+
+  }
