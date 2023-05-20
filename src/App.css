@@ -1,4 +1,17 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+main {
+
+  --main-bg-color: rgba(232, 212, 195, 1);
+  --card-bg-color: rgb(214, 178, 161);
+  --main-font: 'Roboto', sans-serif;
+  --main-font-color: black;
+
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+}
 
     /* make video under nav */
   .content-footer-container {
@@ -8,6 +21,8 @@
     width: 100%;
     overflow: hidden;
   }
+
+  
 
   @media screen and (max-width: 992px) {
 

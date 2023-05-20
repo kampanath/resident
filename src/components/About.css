@@ -6,9 +6,8 @@
 
     width:100vw;
     height:500px;
-    background-color: rgba(232, 212, 195, 1);
-
-  
+    
+    background-color: var(--main-bg-color);
 
 }
 

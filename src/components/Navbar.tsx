@@ -61,10 +61,10 @@ const Navbar = () => {
 
             <nav className="navbar navbar-expand-lg bg-body-tertiary p-3 p-lg-4" >
                 <div className="container-fluid pe-0" >
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" to="/">
                         <img className="logoBrand" src="//images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/79c01ba4-d8a0-4d53-9823-542e3ee90963/Resident_Logo.png?format=1500w
                             " alt="Resident"></img>
-                    </a>
+                    </Link>
 
                     <div className="toggler-container">
                         <button className="navbar-toggler" type="button" ref={bootStrap_toggle_btn_Ref} onClick={handleClick} data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

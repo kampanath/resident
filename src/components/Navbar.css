@@ -7,12 +7,14 @@
     
 }
 
+
+
 #reserve-button {
   height: 5.5em;
   margin-top: 0em;
   border-width: 2.5px;
 
-  font-family: 'Roboto', sans-serif;
+  
   font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 1.7px;
@@ -79,7 +81,7 @@ a.nav-link:hover  {
 @media screen and (max-width: 992px) {
 
     .navbar {
-        background-color: rgba(232, 212, 195, 1);
+        background-color: var(--main-bg-color);
     }
 
     .logoBrand {
