@@ -1,10 +1,24 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import "./Home.css";
 
+interface FullName {
+    firstName: string;
+    lastName: string;
+    onClickImgHome():void;
+}
 
 
-const Home = () => {
+const Home = (props:FullName) => {
+    const {firstName,lastName} = props;
+    const [clickedButton, setClickedButton] = useState('');
+    const buttonHandler = (event: React.MouseEvent<HTMLAnchorElement>) => {
+        event.preventDefault();
+    
+        const button: HTMLAnchorElement = event.currentTarget;
+        setClickedButton(button.name);
+       props.onClickImgHome();
+      };
     
     return ( 
         <>
@@ -16,6 +30,9 @@ const Home = () => {
                 </video>
           
         </div>
+
+        
+     
 
         <div className="background-container p-0 pt-5">
                 <div className="card card-home mx-auto">
@@ -39,10 +56,64 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-           
-            <div className="testDiv">
+        </div>
+        <div className="bottom-container-home">
+            <h5 className="text-center">
+                FOLLOW OUR JOURNEY @<span><a href="https://www.instagram.com/meetresident/">MEETRESIDENT</a></span>
+            </h5>
+
+       
+       
+
+            <div className="container bottom-grid-home">
+                <div className="row">
+                    <div className="col-6 col-md-3">
+                        <a className="box" onClick={buttonHandler} href="https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/1684679263622-YI55AG8D043SP8D3WS1Q/image-asset.jpeg">
+                          <img src={require('../assets/images/AjeshFirstNightPS-11.jpg')} alt="..."/>
+                        </a>
+                    </div>
+                    <div className="col-6 col-md-3">
+                        <div className="box">'
+                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
+                        </div>
+                    </div>
+                    <div className="col-6 col-md-3">
+                        <div className="box">'
+                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
+                        </div>
+                    </div>
+                    <div className="col-6 col-md-3">
+                        <div className="box">'
+                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-6 col-md-3">
+                        <div className="box">'
+                          <img src={require('../assets/images/AjeshFirstNightPS-11.jpg')} alt="..."/>
+                        </div>
+                    </div>
+                    <div className="col-6 col-md-3">
+                        <div className="box">'
+                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
+                        </div>
+                    </div>
+                    <div className="col-6 col-md-3">
+                        <div className="box">'
+                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
+                        </div>
+                    </div>
+                    <div className="col-6 col-md-3">
+                        <div className="box">'
+                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+
         </div>
            
           

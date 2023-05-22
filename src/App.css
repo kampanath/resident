@@ -5,9 +5,9 @@
 main {
 
   --main-bg-color: rgba(232, 212, 195, 1);
-  --card-bg-color: rgb(214, 178, 161);
+  --card-bg-color: rgba(194, 146, 124, 0.2);
   --main-font: 'Roboto', sans-serif;
-  --main-font-color: black;
+  --main-font-color:  rgb(57, 37, 23);
 
   font-family: var(--main-font);
   color: var(--main-font-color);
@@ -22,8 +22,7 @@ main {
     overflow: hidden;
   }
 
-  
-
+ 
   @media screen and (max-width: 992px) {
 
     .content-footer-container {
@@ -31,3 +30,4 @@ main {
     }
 
   }
+

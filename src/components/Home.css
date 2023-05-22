@@ -12,6 +12,12 @@
 .background-container {
   
   background-color: var(--main-bg-color);
+  
+  background-image: url('https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/9e0a99bc-5d91-483d-a1c1-2024f7018b30/92422bg-20.png');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 75%;
   padding:0;
   margin:0;
 
@@ -111,11 +117,13 @@ video {
   }
 
 
-  .card-home {
+  div.card-home {
    width: 90%;
    max-width: max-content;
 
    background-color: var(--card-bg-color);
+   
+   border: 0;
   
   }
 
@@ -175,12 +183,6 @@ h5.card-title-home {
 
 }
 
-.testDiv {
-    width: 100%;
-    height: 300px;
-    background-color: blueviolet;
-    overflow: hidden;
-}
 
 
 #up-coming-dinner-button {
@@ -208,4 +210,84 @@ h5.card-title-home {
 #up-coming-dinner-button:hover {
     color:whitesmoke;
 
+}
+
+.bottom-container-home {
+  width: 100%;
+  background-color: var(--main-bg-color);
+  overflow: hidden;
+}
+
+.bottom-container-home h5 {
+ 
+  margin-top: 4em;
+  margin-bottom: 4em;
+  font-size: calc((1) * 1.2vw + 1rem);
+  font-weight: 800;
+  letter-spacing: 4.5px;
+ 
+}
+ 
+.bottom-container-home span {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1px;
+}
+
+.bottom-container-home a {
+  color: var(--main-font-color);
+ }
+.bottom-container-home a:hover {
+ color: var(--main-font-color);
+}
+
+.bottom-grid-home .box img {
+  width:100%;
+  height:auto;
+}
+
+div.modal {
+  background-color: aquamarine;
+  z-index: 99999;
+}
+
+
+
+div .modal .btn-close {
+  color: chartreuse;
+  background-color: coral;
+  z-index: 9999;
+}
+
+
+div .modal-body {
+  background-color: crimson;
+  width: 100%;
+}
+
+div .modal-body iframe {
+  width: auto;
+  height: 60vh;
+ 
+}
+
+div .modal .modal-backdrop {
+  background-color: blueviolet;
+  z-index: 0;
+}
+
+.modal-dialog {
+  background-color: blueviolet;
+  width: 100%;
+}
+
+#exampleModal {
+  background-color: rgb(0, 180, 15);
+
+}
+
+
+.modal img {
+  width: 100%;
+  height: auto;
 }
