@@ -2,22 +2,24 @@
 import React, { useState } from 'react';
 import "./Home.css";
 
-interface FullName {
-    firstName: string;
-    lastName: string;
-    onClickImgHome():void;
+interface imgPopup {
+    imgLocationHome: string;
+    onClickImgHome(ds:string):void;
 }
 
 
-const Home = (props:FullName) => {
-    const {firstName,lastName} = props;
+const Home = (props:imgPopup) => {
+    let {imgLocationHome} = props;
     const [clickedButton, setClickedButton] = useState('');
+
     const buttonHandler = (event: React.MouseEvent<HTMLAnchorElement>) => {
         event.preventDefault();
     
         const button: HTMLAnchorElement = event.currentTarget;
-        setClickedButton(button.name);
-       props.onClickImgHome();
+        setClickedButton(button.href);
+      
+        imgLocationHome="img-home-3.jpg";
+        props.onClickImgHome(button.href);
       };
     
     return ( 
@@ -65,50 +67,50 @@ const Home = (props:FullName) => {
        
        
 
-            <div className="container bottom-grid-home">
-                <div className="row">
-                    <div className="col-6 col-md-3">
-                        <a className="box" onClick={buttonHandler} href="https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/1684679263622-YI55AG8D043SP8D3WS1Q/image-asset.jpeg">
-                          <img src={require('../assets/images/AjeshFirstNightPS-11.jpg')} alt="..."/>
+            <div className="container bottom-grid-home bg-danger">
+                <div className="row bg-info">
+                    <div className="col-6 col-md-3 bg-success">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-1.jpg">
+                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
                         </a>
                     </div>
-                    <div className="col-6 col-md-3">
-                        <div className="box">'
+                    <div className="col-6 col-md-3 bg-success">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-1.jpg">
                           <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
-                        </div>
+                        </a>
                     </div>
-                    <div className="col-6 col-md-3">
-                        <div className="box">'
-                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
-                        </div>
+                    <div className="col-6 col-md-3 bg-success">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-3.jpg">'
+                          <img src={require('../assets/images/img-home-3.jpg')} alt="..."/>
+                        </a>
                     </div>
-                    <div className="col-6 col-md-3">
-                        <div className="box">'
-                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
-                        </div>
+                    <div className="col-6 col-md-3 bg-success">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-4.jpg">'
+                          <img src={require('../assets/images/img-home-4.jpg')} alt="..."/>
+                        </a>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-6 col-md-3">
-                        <div className="box">'
-                          <img src={require('../assets/images/AjeshFirstNightPS-11.jpg')} alt="..."/>
-                        </div>
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-5.jpg">'
+                          <img src={require('../assets/images/img-home-5.jpg')} alt="..."/>
+                        </a>
                     </div>
                     <div className="col-6 col-md-3">
-                        <div className="box">'
-                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
-                        </div>
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-6.jpg">'
+                          <img src={require('../assets/images/img-home-6.jpg')} alt="..."/>
+                        </a>
                     </div>
                     <div className="col-6 col-md-3">
-                        <div className="box">'
-                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
-                        </div>
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-7.jpg">'
+                          <img src={require('../assets/images/img-home-7.jpg')} alt="..."/>
+                        </a>
                     </div>
                     <div className="col-6 col-md-3">
-                        <div className="box">'
-                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
-                        </div>
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-8.jpg">'
+                          <img src={require('../assets/images/img-home-8.jpg')} alt="..."/>
+                        </a>
                     </div>
                 </div>
 
