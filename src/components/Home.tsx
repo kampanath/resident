@@ -39,7 +39,7 @@ const Home = (props:imgPopup) => {
         <div className="background-container p-0 pt-5">
                 <div className="card card-home mx-auto">
                     <div className="card-horizontal">
-                        <div className="img-fluid">
+                        <div className="img-fluid" id="home-card-img">
                            <img src={require('../assets/images/AjeshFirstNightPS-11.jpg')} className="card-img-top" id="card-img-home" alt="..."/>
                         </div>
                         <div className="card-body card-body-home">
@@ -64,51 +64,48 @@ const Home = (props:imgPopup) => {
                 FOLLOW OUR JOURNEY @<span><a href="https://www.instagram.com/meetresident/">MEETRESIDENT</a></span>
             </h5>
 
-       
-       
-
-            <div className="container bottom-grid-home bg-danger">
-                <div className="row bg-info">
-                    <div className="col-6 col-md-3 bg-success">
+            <div className="container bottom-grid-home">
+                <div className="row mb-0 mb-md-5">
+                    <div className="col-6 col-md-3 mb-3 mb-md-0">
                         <a className="box" onClick={buttonHandler}  href="cut_this/img-home-1.jpg">
                           <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
                         </a>
                     </div>
-                    <div className="col-6 col-md-3 bg-success">
-                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-1.jpg">
-                          <img src={require('../assets/images/img-home-1.jpg')} alt="..."/>
+                    <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-2.jpg">
+                          <img src={require('../assets/images/img-home-2.jpg')} alt="..."/>
                         </a>
                     </div>
-                    <div className="col-6 col-md-3 bg-success">
-                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-3.jpg">'
+                    <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-3.jpg">
                           <img src={require('../assets/images/img-home-3.jpg')} alt="..."/>
                         </a>
                     </div>
-                    <div className="col-6 col-md-3 bg-success">
-                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-4.jpg">'
+                    <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-4.jpg">
                           <img src={require('../assets/images/img-home-4.jpg')} alt="..."/>
                         </a>
                     </div>
                 </div>
 
                 <div className="row">
-                    <div className="col-6 col-md-3">
-                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-5.jpg">'
+                <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-5.jpg">
                           <img src={require('../assets/images/img-home-5.jpg')} alt="..."/>
                         </a>
                     </div>
-                    <div className="col-6 col-md-3">
-                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-6.jpg">'
+                    <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-6.jpg">
                           <img src={require('../assets/images/img-home-6.jpg')} alt="..."/>
                         </a>
                     </div>
-                    <div className="col-6 col-md-3">
-                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-7.jpg">'
+                    <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-7.jpg">
                           <img src={require('../assets/images/img-home-7.jpg')} alt="..."/>
                         </a>
                     </div>
-                    <div className="col-6 col-md-3">
-                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-8.jpg">'
+                    <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <a className="box" onClick={buttonHandler}  href="cut_this/img-home-8.jpg">
                           <img src={require('../assets/images/img-home-8.jpg')} alt="..."/>
                         </a>
                     </div>

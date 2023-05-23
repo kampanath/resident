@@ -70,22 +70,19 @@ let button_Ref = useRef(null);
         <Navbar />
 
         
-
+        {/*  
         <button type="button" className="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal" ref={button_Ref}>
           Launch demo modal
         </button>
-
-      
-          
+       */}
         <div className="modal fade" id="exampleModal" tabIndex={-1} aria-hidden="true" ref={modal_Ref}>
-         
           <div className="modal-dialog">
-          <img  src={require(`./assets/images/${imgLocState}`)} alt="..." ref={img_Ref}/>
-      
+            <div className="img-fluid" id="app-modal-img">
+              <img src={require(`./assets/images/${imgLocState}`)} alt="..." ref={img_Ref}/>
+            </div>
           </div>
-
         </div>
-     
+
         <div className="content-footer-container">
 
           <Routes>
