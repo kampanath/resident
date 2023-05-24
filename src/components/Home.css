@@ -177,7 +177,7 @@ h5.card-title-home {
 
 #up-coming-dinner-button {
   height: 6em;
-  
+  width: fit-content;
   border-width: 2.5px;
   font-family: var(--main-font);
   font-size: 1rem;

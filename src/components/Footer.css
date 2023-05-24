@@ -1,7 +1,61 @@
 footer {
    
-    background-color: brown;
+    
+    background-color: var(--footer-bg-color);
+    
     width: 100%;
     overflow-x: hidden;
 
 }
+
+
+ .footer-link h6 {
+
+    font-size: calc((0.5) * 0.8vw + 0.6rem);
+    color: var( --footer-font-color);
+    text-decoration-color: var( --footer-font-color);
+
+ }
+
+ .footer-link:visited,.footer-link:hover,.footer-link:focus,.footer-link:active {
+
+    color: var( --footer-font-color);
+
+ }
+
+ svg {
+    color: whitesmoke;
+ }
+
+ #signUp-NewsLetter-button {
+
+    color: var( --footer-font-color);
+    
+
+    height: 7em;
+    
+    border-width: 2.5px;
+    font-family: var(--main-font);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 1.7px;
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+    border-color:  var( --footer-font-color);
+
+    display: grid;
+    place-items: center;
+ }
+
+ #signUp-NewsLetter-button:hover {
+
+    color: whitesmoke;
+
+    background-color: var( --footer-font-color);
+
+ }
+
+
+

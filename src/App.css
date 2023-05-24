@@ -8,6 +8,10 @@ main {
   --card-bg-color: rgba(194, 146, 124, 0.2);
   --main-font: 'Roboto', sans-serif;
   --main-font-color:  rgb(57, 37, 23);
+  --footer-bg-color:  rgb(54, 37, 23);
+  --footer-font-color: rgb(179, 124, 107);
+
+
 
   font-family: var(--main-font);
   color: var(--main-font-color);
