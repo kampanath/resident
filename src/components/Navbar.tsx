@@ -67,7 +67,7 @@ const Navbar = () => {
                     </Link>
 
                     <div className="toggler-container">
-                        <button className="navbar-toggler" type="button" ref={bootStrap_toggle_btn_Ref} onClick={handleClick} data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler bg-danger" type="button" ref={bootStrap_toggle_btn_Ref} onClick={handleClick} data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="menu-icon" ref={css_toggle_btn_Ref}></div>

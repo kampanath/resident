@@ -109,7 +109,7 @@ a.nav-link:hover  {
 }
 
 .navbar-toggler {
-    opacity: 0%;
+    opacity: 100%;
     z-index: 1;
 }
 
