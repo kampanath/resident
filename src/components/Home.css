@@ -130,12 +130,14 @@ video {
   width:50%;
   height:auto;
   flex: 1 1 50%;
+  max-width: 550px;
+  background-color: var(--card-bg-color);
   
 }
 
 .card-body-home {
   width: 50%;
-  max-width: 700px;
+  max-width: 550px;
   flex: 1 1 50%;
   background-color: var(--card-bg-color);
   max-height: 100%;
@@ -144,7 +146,7 @@ video {
 
 .card-body-home p {
  
-  font-size: calc((0.6) * 0.3vw + 1rem);
+  font-size: calc((0.5) * 0.3vw + 0.8rem);
   font-weight: 600;
   letter-spacing: 1.7px;
  
@@ -152,7 +154,7 @@ video {
 
 .card-body-home h5 {
  
-  font-size: calc((0.8) * 1.2vw + 1rem);
+  font-size: calc((0.6) * 1vw + 0.9rem);
   font-weight: 800;
   letter-spacing: 1.7px;
  

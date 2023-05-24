@@ -7,7 +7,8 @@ import Footer from "./components/Footer";
 import { relative } from 'path';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import About from './components/About';
-import 'bootstrap/dist/css/bootstrap.css';
+
+import 'bootstrap/dist/css/bootstrap.css'; 
 import { Button, Modal } from 'bootstrap';
 import home_image_1 from './assets/images/img-home-1.jpg';
 import home_image_2 from './assets/images/img-home-2.jpg';

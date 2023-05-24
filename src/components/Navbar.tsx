@@ -7,6 +7,7 @@ import About from "./About";
 
 let css_toggle_btn: any;
 let bootStrap_toggle_btn: any;
+let bootStrap_toggle_btn2: HTMLButtonElement;
 
 
 
@@ -21,11 +22,17 @@ const Navbar = () => {
     };
 
     /* when click nav link, make bootstrap toggle button do its click event*/
+    /* to make nav bar toggle to its close position ( hamburger ) */
     const navClick = () => {
         
+       
         /* [0] is width [1] is height   */
-        if(windowSize[0] < 992) //do this only in small screen when toggle button enable
+        if(windowSize[0] < 992) //do this only in small screen when toggle button enable 
+        {
+        
             bootStrap_toggle_btn.click();
+           
+        }
 
     };
 
@@ -61,7 +68,7 @@ const Navbar = () => {
 
             <nav className="navbar navbar-expand-lg bg-body-tertiary p-3 p-lg-4" >
                 <div className="container-fluid pe-0" >
-                    <Link className="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/" onClick={navClick}>
                         <img className="logoBrand" src="//images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/79c01ba4-d8a0-4d53-9823-542e3ee90963/Resident_Logo.png?format=1500w
                             " alt="Resident"></img>
                     </Link>
@@ -71,6 +78,8 @@ const Navbar = () => {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="menu-icon" ref={css_toggle_btn_Ref}></div>
+
+                        
 
                     </div>
 
