@@ -11,9 +11,10 @@ footer {
 
  .footer-link h6 {
 
-    font-size: calc((0.5) * 0.8vw + 0.6rem);
+    font-size: calc((0.75) * 0.3vw + 0.75rem);
     color: var( --footer-font-color);
     text-decoration-color: var( --footer-font-color);
+    font-weight: 600;
 
  }
 
@@ -27,6 +28,8 @@ footer {
     color: whitesmoke;
  }
 
+ 
+
  #signUp-NewsLetter-button {
 
     color: var( --footer-font-color);
@@ -36,7 +39,7 @@ footer {
     
     border-width: 2.5px;
     font-family: var(--main-font);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 800;
     letter-spacing: 1.7px;
 

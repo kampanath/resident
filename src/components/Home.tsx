@@ -53,7 +53,7 @@ const Home = (props: imgPopup) => {
                     </div>
                 </div>
             </div>
-            <div className="bottom-container-home">
+            <div className="bottom-container-home pb-5">
                 <h5 className="text-center">
                     FOLLOW OUR JOURNEY @<span><a href="https://www.instagram.com/meetresident/">MEETRESIDENT</a></span>
                 </h5>
