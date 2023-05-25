@@ -1,0 +1,90 @@
+.newsletter {
+    /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    padding-top: calc(7em + 0vh);
+    margin-top: calc(0em + 15vh);
+
+   height: 100vh;
+   
+
+    background-color: var( --footer-bg-color);
+  
+
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+
+}
+
+.newsletter Form {
+    color:whitesmoke;
+}
+
+.newsletter-text-container {
+  
+
+}
+
+
+.newsletter-text {
+    word-break: break-all;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1.7px;
+    color:whitesmoke;
+}
+
+.newsletter-header-text {
+
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: 1.7px;
+    color:whitesmoke;
+
+}
+
+#newsletter-send-btn {
+
+    color: var( --footer-font-color);
+    
+
+    height: 4.5em;
+    
+    border-width: 2.5px;
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1.7px;
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+    border-color:  var( --footer-font-color);
+
+    display: grid;
+    place-items: center;
+ }
+
+ #newsletter-send-btn:hover {
+
+    color: whitesmoke;
+
+    background-color: var( --footer-font-color);
+
+ }
+
+
+ .newsletter-formgroup {
+    width: 100%;
+ }
+
+
+@media screen and (max-width: 992px) {
+
+    /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    .newsletter {
+        padding-top: calc(5em + 0vh);
+        margin-top: calc(0em + 5vh);
+    }
+
+}

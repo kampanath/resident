@@ -4,6 +4,14 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Joinus from "./components/Joinus";
+import Legal from "./components/Legal";
+import Newsletter from "./components/Newsletter";
+
+
+
+
 import { relative } from 'path';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import About from './components/About';
@@ -12,7 +20,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Button, Modal } from 'bootstrap';
 import home_image_1 from './assets/images/img-home-1.jpg';
 import home_image_2 from './assets/images/img-home-2.jpg';
-
 
 let app_modal: any;
 
@@ -77,6 +84,13 @@ function App() {
           <Routes>
             <Route path="/" element={<Home onClickImgHome={onClickImg} />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/joinus" element={<Joinus />} />
+            <Route path="/legal" element={<Legal />} />
+            <Route path="/newsletter" element={<Newsletter />} />
+
+
+
           </Routes>
 
           <Footer />

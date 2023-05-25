@@ -5,11 +5,13 @@
     margin-top: calc(0em + 15vh);
 
     width:100vw;
-    height:500px;
+    height:100vh;
     
     background-color: var(--main-bg-color);
 
 }
+
+
 
 @media screen and (max-width: 992px) {
 

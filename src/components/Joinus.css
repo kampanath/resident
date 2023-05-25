@@ -1,4 +1,4 @@
-.contact {
+.joinus {
     /* because parent ( content-footer-container ) is absolute */
     /* shift this element down unless it will be cover by Nav */
     padding-top: calc(7em + 0vh);
@@ -59,7 +59,7 @@
 
      /* because parent ( content-footer-container ) is absolute */
     /* shift this element down unless it will be cover by Nav */
-    .contact {
+    .joinus {
         padding-top: calc(5em + 0vh);
         margin-top: calc(0em + 5vh);
     }

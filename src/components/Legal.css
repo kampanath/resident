@@ -1,67 +1,74 @@
-.contact {
+.legal {
     /* because parent ( content-footer-container ) is absolute */
     /* shift this element down unless it will be cover by Nav */
     padding-top: calc(7em + 0vh);
     margin-top: calc(0em + 15vh);
 
-   
+    height: 100vh;
     background-color: var(--main-bg-color);
 
     background-color: var(--main-bg-color);
-    
+
     background-image: url('https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/9e0a99bc-5d91-483d-a1c1-2024f7018b30/92422bg-20.png');
-    
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 0%;
-  
-  
+
+
     font-family: var(--main-font);
     color: var(--main-font-color);
 
 }
 
+.legal-text-container {
+    height: 80vh;
 
-.contact-us-text {
+}
+
+
+.legal-text {
     word-break: break-all;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1.7px;
 }
 
 .contact-us-header-text {
- 
+
     font-size: 1.4rem;
     font-weight: 800;
     letter-spacing: 1.7px;
-   
-  }
 
-  
-.contact-send-btn#contact-send-btn {
-    height: 7em;
-    margin-top: 0em;
-    border-width: 2.5px;
-    border-color: var(--main-font-color);
-    
-    font-size: 0.7rem;
-    font-weight: 800;
-    letter-spacing: 1.7px;
-    color:var(--main-font-color);
-    
-    
-  }
-
-  .contact-send-btn#contact-send-btn:hover {
-    color:whitesmoke;
-    background-color:var(--main-font-color);
 }
 
+.legal-link {
+
+    color: var(--main-font-color);
+
+}
+
+.legal-link:focus {
+
+    color: var(--main-font-color);
+
+}
+
+.legal-link:hover {
+    color: var(--main-font-color);
+}
+
+.legal-link:visited {
+    color: var(--main-font-color);
+}
 
 @media screen and (max-width: 992px) {
 
-     /* because parent ( content-footer-container ) is absolute */
+    /* because parent ( content-footer-container ) is absolute */
     /* shift this element down unless it will be cover by Nav */
-    .contact {
+    .legal {
         padding-top: calc(5em + 0vh);
         margin-top: calc(0em + 5vh);
     }
 
-  }
+}

@@ -22,17 +22,17 @@ const Footer = () => {
                     <div className="col-12 col-md-4 text-center d-flex order-last order-md-first mb-3 mb-md-0 ">
 
                         <div className="footer-box d-inline my-auto me-4">
-                            <Link className="footer-link d-inline-block text-nowrap" to="/about">
+                            <Link className="footer-link d-inline-block text-nowrap" to="/contact">
                                 <h6>CONTACT US</h6>
                             </Link>
                         </div>
                         <div className="footer-box d-inline my-auto me-4">
-                            <Link className="footer-link d-inline-block" to="/about">
+                            <Link className="footer-link d-inline-block" to="/joinus">
                                 <h6>CAREERS</h6>
                             </Link>
                         </div>
                         <div className="footer-box d-inline my-auto me-4">
-                            <Link className="footer-link d-inline-block" to="/about">
+                            <Link className="footer-link d-inline-block" to="/legal">
                                 <h6>LEGAL</h6>
                             </Link>
                         </div>
@@ -58,8 +58,8 @@ const Footer = () => {
 
                     </div>
                     <div className="col-7 col-md-4 text-center d-flex align-content-center">
-                        <a href="https://www.instagram.com/meetresident/?hl=en" className="btn my-5 ms-0 ms-lg-5 me-0 me-lg-5" id="signUp-NewsLetter-button"
-                            role="button" aria-disabled="true">SIGN UP FOR OUR NEWSLETTER</a>
+                        <Link to="/newsletter" className="btn my-5 ms-0 ms-lg-5 me-0 me-lg-5" id="signUp-NewsLetter-button"
+                            role="button" aria-disabled="true">SIGN UP FOR OUR NEWSLETTER</Link>
 
                     </div>
 
