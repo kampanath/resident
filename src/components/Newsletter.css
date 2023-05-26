@@ -4,7 +4,8 @@
     padding-top: calc(7em + 0vh);
     margin-top: calc(0em + 15vh);
 
-   height: 100vh;
+    min-height: 100vh;
+
    
 
     background-color: var( --footer-bg-color);

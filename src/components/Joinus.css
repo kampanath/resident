@@ -4,6 +4,7 @@
     padding-top: calc(7em + 0vh);
     margin-top: calc(0em + 15vh);
 
+    min-height: 100vh;
    
     background-color: var(--main-bg-color);
 
