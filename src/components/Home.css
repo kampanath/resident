@@ -199,6 +199,8 @@ h5.card-title-home {
 
 #up-coming-dinner-button:hover {
     color:whitesmoke;
+    background-color: var(--main-font-color);
+
 
 }
 

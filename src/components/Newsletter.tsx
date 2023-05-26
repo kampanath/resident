@@ -42,6 +42,8 @@ const Newsletter = () => {
                                         SIGN UP
                                     </div>
                         </button>
+
+                        
                     </Form>
 
                   </div>

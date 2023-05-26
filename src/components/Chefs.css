@@ -1,0 +1,76 @@
+.chefs {
+    /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    padding-top: calc(7em + 0vh);
+    margin-top: calc(0em + 15vh);
+   
+    min-height: 100vh;
+   
+    background-color: var(--main-bg-color);
+
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+
+}
+
+ .chefs-title {
+  
+    font-family: 'DM Mono', monospace;;
+    font-size: 2.0rem;
+    font-weight:900;
+    font-style: normal;
+    letter-spacing: 0.3em;
+   
+  }
+
+  .chefs-text {
+    font-family: 'DM Mono', monospace;;
+    font-size: 1.0rem;
+    font-weight:400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+  }
+
+  .chefs-figure .figure-caption {
+    font-family: 'DM Mono', monospace;;
+    font-size: 1.2rem;
+    font-weight:600;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    color: var(--main-font-color);
+
+  }
+
+  .figure-img {
+  
+   border-radius: 100px 0 100px 100px;
+  }
+
+  .chefs-figure {
+    
+  }
+
+  .figure-img {
+    width: 20vw;
+    height: 20vw;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+
+ 
+  @media screen and (max-width: 992px) {
+
+   /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    .chefs {
+        padding-top: calc(5em + 0vh);
+        margin-top: calc(0em + 5vh);
+    }
+ 
+
+  }
+
+
+  

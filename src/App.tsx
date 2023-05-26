@@ -8,6 +8,8 @@ import Contact from "./components/Contact";
 import Joinus from "./components/Joinus";
 import Legal from "./components/Legal";
 import Newsletter from "./components/Newsletter";
+import Chefs from "./components/Chefs";
+
 
 
 
@@ -88,6 +90,8 @@ function App() {
             <Route path="/joinus" element={<Joinus />} />
             <Route path="/legal" element={<Legal />} />
             <Route path="/newsletter" element={<Newsletter />} />
+            <Route path="/chefs" element={<Chefs />} />
+
 
 
 

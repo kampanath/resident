@@ -16,19 +16,24 @@ const About = () => {
                             <img src={require('../assets/images/AjeshFirstNightPS-11.jpg')} className="card-img-top" id="card-img-about" alt="..." />
                         </div>
                         */}
+                        
                         <div className="carousel slide about-carousel-img" id="about-card-img" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                 <img src={require('../assets/images/Screen+Shot+2023-03-28+at+3.34.09+PM.png')} className="d-block about-carousel-img" alt="..."/>
+    
+                                 <img src="https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/22348f50-caaa-4867-bc6c-665244884ac9/Copy-of-6N0A0439.jpg" className="d-block about-carousel-img" alt="..."/>
                                 </div>
                                 <div className="carousel-item">
-                                 <img src={require('../assets/images/Screen+Shot+2023-03-28+at+3.33.56+PM.png')} className="d-block  about-carousel-img" alt="..."/>
+                                 <img src="https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/1680042268030-U2MPHPWE3WGDPOEEHEH1/6N0A2692+%281%29.jpg" className="d-block  about-carousel-img" alt="..."/>
                                 </div>
                                 <div className="carousel-item">
-                                 <img src={require('../assets/images/Connor+Food+4+-+6.3.22+(1).jpg')} className="d-block  about-carousel-img" alt="..."/>
+                                 <img src="https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/1680042096198-I2WMZ2T05NKPGE4TLH1L/Connor+Food+4+-+6.3.22+%281%29.jpg" className="d-block  about-carousel-img" alt="..."/>
                                 </div>
                                 <div className="carousel-item">
-                                 <img src={require('../assets/images/6N0A2692+(1).jpg')} className="d-block about-carousel-img" alt="..."/>
+                                 <img src="https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/1680042857882-I46QIUK8TP50XYKLPR1H/Screen+Shot+2023-03-28+at+3.34.09+PM.png" className="d-block about-carousel-img" alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                 <img src="https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/1680042879206-HGR548VDHLCW9S568T0A/Screen+Shot+2023-03-28+at+3.33.56+PM.png" className="d-block about-carousel-img" alt="..."/>
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#about-card-img" data-bs-slide="prev">

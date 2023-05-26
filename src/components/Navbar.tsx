@@ -90,7 +90,7 @@ const Navbar = () => {
                                 <Link className="nav-link" aria-current="page" to="/about" onClick={navClick}>ABOUT</Link>
                             </li>
                             <li className="nav-item my-auto">
-                                <Link className="nav-link" to="/" onClick={navClick}>CHEFS</Link>
+                                <Link className="nav-link" to="/chefs" onClick={navClick}>CHEFS</Link>
                             </li>
                             <li className="nav-item my-auto">
                                 <a className="nav-link" href="#">VENUES</a>
