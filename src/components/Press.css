@@ -1,0 +1,105 @@
+.press {
+    /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    padding-top: calc(7em + 0vh);
+    margin-top: calc(0em + 15vh);
+   
+    min-height: 100vh;
+   
+    background-color: var(--main-bg-color);
+
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+
+    background-image: url('https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/9e0a99bc-5d91-483d-a1c1-2024f7018b30/92422bg-20.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 0%;
+ 
+
+}
+
+ .press-title {
+  
+    font-family: 'DM Mono', monospace;;
+    font-size: 2.0rem;
+    font-weight:900;
+    font-style: normal;
+    letter-spacing: 0.3em;
+   
+  }
+
+  .press-text {
+    font-family: 'DM Mono', monospace;;
+    font-size: 1.0rem;
+    font-weight:400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+  }
+
+  .press-figure .figure-caption {
+    font-family: 'DM Mono', monospace;;
+    font-size: 0.9rem;
+    font-weight:600;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    color: var(--main-font-color);
+
+  }
+
+
+
+  .press .figure-img {
+    width: 20vw;
+    height: 20vw;
+    max-width: 300px;
+    max-height: 100px;
+    object-fit:scale-down;
+    
+  }
+
+
+  @media screen and (max-width: 992px) {
+
+   /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    .press {
+        padding-top: calc(5em + 0vh);
+        margin-top: calc(0em + 5vh);
+    }
+ 
+
+  }
+
+
+  @media screen and (max-width: 767px) {
+
+    .press .figure-img {
+
+      width: 80vw;
+      height: 80vw;
+      border-radius: 15vw 0 15vw 15vw;
+
+     }
+  
+ 
+   }
+
+
+  @media screen and (max-width: 576px) {
+
+   
+     .press .figure-img {
+
+      width: 70vw;
+      height: 70vw;
+      border-radius: 24vw 0 24vw 24vw;
+
+     }
+  
+ 
+   }
+
+
+  

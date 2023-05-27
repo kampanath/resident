@@ -99,10 +99,10 @@ const Navbar = () => {
                                 <a className="nav-link" href="#">PRIVATE EVENTS</a>
                             </li>
                             <li className="nav-item my-auto">
-                                <a className="nav-link" href="#">PRESS</a>
+                                <Link className="nav-link" to="/press" onClick={navClick}>PRESS</Link>
                             </li>
                             <li className="nav-item my-auto">
-                                <a className="nav-link" href="#">FAQS</a>
+                               <Link className="nav-link" to="/faqs" onClick={navClick}>FAQS</Link>
                             </li>
                             <li className="nav-item">
                                 <button className="nav-link btn btn-outline-dark" id="reserve-button">

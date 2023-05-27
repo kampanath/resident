@@ -1,0 +1,170 @@
+.faqs {
+    /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    padding-top: calc(7em + 0vh);
+    margin-top: calc(0em + 15vh);
+   
+    min-height: 100vh;
+   
+    background-color: var(--main-bg-color);
+
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+
+    background-image: url('https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/9e0a99bc-5d91-483d-a1c1-2024f7018b30/92422bg-20.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 0%;
+ 
+
+}
+
+ .faqs-title {
+  
+    font-family: 'DM Mono', monospace;;
+    font-size: 2.0rem;
+    font-weight:bolder;
+    letter-spacing: 0.3em;
+    color: var(--main-font-color);
+
+   
+  }
+
+  .faqs-text {
+    font-family: 'DM Mono', monospace;;
+    font-size: 1.0rem;
+    font-weight:400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+  }
+
+  .faqs-top-img {
+    width: 100vw;
+    height: 500px;
+    max-width: 100vw;
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .faqs-collapse-container {
+    width: 100%;
+  }
+
+
+  .faqs-plus-icon {
+    color:var(--main-font-color);
+    position:absolute;
+    right:0;
+    top:5px;
+
+  }
+
+
+  .faqs-collapse-container .btn-faqs-collapse {
+    width: 100%;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    border-radius: 0;
+    border-top: 0px solid var(--faqs-btn-border-color);
+    border-bottom: 2px solid var(--faqs-btn-border-color);
+    position:relative;
+
+    font-size: 0.9rem;
+    font-weight:600;
+    font-style: normal;
+    letter-spacing: 0.1em;
+
+  }
+
+  #btn-faqs-collapse-first {
+    border-top: 2px solid var(--faqs-btn-border-color);
+  }
+
+  .faqs-collapse-container .btn-faqs-collapse:hover {
+   
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    border-top: 0px solid var(--faqs-btn-border-color);
+    border-bottom: 2px solid var(--faqs-btn-border-color);
+
+  }
+
+
+
+  .faqs-collapse-container .btn-faqs-collapse:focus {
+   
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    border-top: 0px solid var(--faqs-btn-border-color);
+    border-bottom: 2px solid var(--faqs-btn-border-color);
+
+  }
+
+  .faqs-collapse-container .btn-faqs-collapse:active {
+   
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    border-top: 0px solid var(--faqs-btn-border-color);
+    border-bottom: 2px solid var(--faqs-btn-border-color);
+    border-left: 0px solid var(--faqs-btn-border-color);
+    border-right: 0px solid var(--faqs-btn-border-color);
+  }
+
+  .faqs-collapse-container .faqs-collapse-card {
+    background-color: transparent;
+    color: var(--main-font-color);
+   border: 0px;
+    width:100%;
+    border:0;
+
+    font-size: 0.8rem;
+    font-weight:400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    
+  }
+
+  .faqs-collapse-container .faqs-collapse {
+    background-color: transparent;
+    color: var(--main-font-color);
+    border:0;
+    width:100%;
+    border:0;
+
+    
+  }
+
+ 
+  @media screen and (max-width: 992px) {
+
+   /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    .faqs {
+        padding-top: calc(5em + 0vh);
+        margin-top: calc(0em + 5vh);
+    }
+ 
+
+  }
+
+
+  @media screen and (max-width: 575px) {
+
+    .faqs-title {
+  
+       
+        font-size: 1.5rem;
+       
+    
+       
+      }
+    
+ 
+   }
+
+
+
+
+
+  

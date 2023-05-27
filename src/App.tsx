@@ -10,6 +10,10 @@ import Legal from "./components/Legal";
 import Newsletter from "./components/Newsletter";
 import Chefs from "./components/Chefs";
 import Venues from "./components/Venues";
+import Press from "./components/Press";
+import Faqs from "./components/Faqs";
+
+
 
 
 
@@ -94,6 +98,10 @@ function App() {
             <Route path="/newsletter" element={<Newsletter />} />
             <Route path="/chefs" element={<Chefs />} />
             <Route path="/venues" element={<Venues />} />
+            <Route path="/press" element={<Press />} />
+            <Route path="/faqs" element={<Faqs />} />
+
+
 
 
 
