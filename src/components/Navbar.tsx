@@ -93,7 +93,7 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/chefs" onClick={navClick}>CHEFS</Link>
                             </li>
                             <li className="nav-item my-auto">
-                                <a className="nav-link" href="#">VENUES</a>
+                                <Link className="nav-link" to="/venues" onClick={navClick}>VENUES</Link>
                             </li>
                             <li className="nav-item my-auto">
                                 <a className="nav-link" href="#">PRIVATE EVENTS</a>

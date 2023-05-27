@@ -9,6 +9,8 @@ import Joinus from "./components/Joinus";
 import Legal from "./components/Legal";
 import Newsletter from "./components/Newsletter";
 import Chefs from "./components/Chefs";
+import Venues from "./components/Venues";
+
 
 
 
@@ -91,6 +93,8 @@ function App() {
             <Route path="/legal" element={<Legal />} />
             <Route path="/newsletter" element={<Newsletter />} />
             <Route path="/chefs" element={<Chefs />} />
+            <Route path="/venues" element={<Venues />} />
+
 
 
 

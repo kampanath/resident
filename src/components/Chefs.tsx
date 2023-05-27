@@ -6,9 +6,9 @@ const Chefs = () => {
         <>
 
         <main className="chefs pb-5 text-center" >
-          <div className="container chefs-container text-center p-5 ">
+          <div className="container chefs-container text-center p-5">
 
-           <div className="row">
+           <div className="row ">
             <div className="col">
                <h1 className="chefs-title">CHEFS</h1>
             </div>
@@ -23,8 +23,8 @@ const Chefs = () => {
             </div>
            </div>
 
-           <div className="row mb-5 justify-content-center bg-dark">
-            <div className="col-12 col-sm-4 col-md-3 m-3">
+           <div className="row mb-5 justify-content-center ">
+            <div className="col-12 col-sm-12 col-md-3 m-3 ">
              
                 <figure className="figure chefs-figure ">
                         <img src={require('../assets/images/resident+photo+3.jpg')} className="figure-img  " alt="..."/>
@@ -32,13 +32,13 @@ const Chefs = () => {
                 </figure>
               
             </div>
-            <div className="col-12 col-sm-4 col-md-3 bg-danger m-3">
-              <figure className="figure chefs-figure bg-info">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
+              <figure className="figure chefs-figure">
                     <img src={require('../assets/images/Screenshot+2023-04-19+at+4.40.10+PM+-+Abigail+Kirn.png')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ABIGAIL KIRN</figcaption>
               </figure>
             </div>
-            <div className="col-12 col-sm-4 col-md-3 m-3">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/img-home-7.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ADJI JALLOH</figcaption>
@@ -46,49 +46,73 @@ const Chefs = () => {
             </div>
            </div>
 
-           <div className="row mb-5 justify-content-center ">
-            <div className="col-12 col-sm-4 col-md-3 ">
+
+           <div className="row mb-5 justify-content-center">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
              
                 <figure className="figure chefs-figure ">
-                        <img src={require('../assets/images/img-home-1.jpg')} className="figure-img img-fluid " alt="..."/>
-                        <figcaption className="figure-caption">A caption for the above image.</figcaption>
+                        <img src={require('../assets/images/resident+photo+4.jpg')} className="figure-img  " alt="..."/>
+                        <figcaption className="figure-caption">CHEF ADOLFO GARCIA</figcaption>
                 </figure>
               
             </div>
-            <div className="col-12 col-sm-4 col-md-3">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/img-home-2.jpg')} className="figure-img img-fluid " alt="..."/>
-                    <figcaption className="figure-caption">A caption for the above image.</figcaption>
+                    <img src={require('../assets/images/resident+photo+5.jpg')} className="figure-img" alt="..."/>
+                    <figcaption className="figure-caption">CHEF AJESH DESHPANDE</figcaption>
               </figure>
             </div>
-            <div className="col-12 col-sm-4 col-md-3">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/img-home-3.jpg')} className="figure-img img-fluid " alt="..."/>
-                    <figcaption className="figure-caption">A caption for the above image.</figcaption>
+                    <img src={require('../assets/images/Screen2B2022.jpg')} className="figure-img" alt="..."/>
+                    <figcaption className="figure-caption">CHEF ALAN DELGADO</figcaption>
               </figure>
             </div>
            </div>
 
-           
-           <div className="row mb-5 justify-content-center ">
-            <div className="col-12 col-sm-4 col-md-3 ">
+           <div className="row mb-5 justify-content-center">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
              
                 <figure className="figure chefs-figure ">
-                        <img src={require('../assets/images/img-home-1.jpg')} className="figure-img img-fluid " alt="..."/>
-                        <figcaption className="figure-caption">A caption for the above image.</figcaption>
+                        <img src={require('../assets/images/Screen+Shot+4-1.png')} className="figure-img  " alt="..."/>
+                        <figcaption className="figure-caption">CHEF ALMIRA SESSION</figcaption>
                 </figure>
               
             </div>
-            <div className="col-12 col-sm-4 col-md-3">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/img-home-2.jpg')} className="figure-img img-fluid " alt="..."/>
-                    <figcaption className="figure-caption">A caption for the above image.</figcaption>
+                    <img src={require('../assets/images/Screen+Shot+4-2.jpg')} className="figure-img" alt="..."/>
+                    <figcaption className="figure-caption">CHEF ANDREW BOSI</figcaption>
               </figure>
             </div>
-            <div className="col-12 col-sm-4 col-md-3">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/img-home-3.jpg')} className="figure-img img-fluid " alt="..."/>
-                    <figcaption className="figure-caption">A caption for the above image.</figcaption>
+                    <img src={require('../assets/images/Screen+Shot+4-3.png')} className="figure-img" alt="..."/>
+                    <figcaption className="figure-caption">CHEF ASANKA LORENSU</figcaption>
+              </figure>
+            </div>
+           </div>
+
+
+           <div className="row mb-5 justify-content-center">
+            <div className="col-12 col-sm-12 col-md-3 m-3">
+             
+                <figure className="figure chefs-figure ">
+                        <img src={require('../assets/images/Screen+Shot+5-1.png')} className="figure-img  " alt="..."/>
+                        <figcaption className="figure-caption">CHEF ALMIRA SESSION</figcaption>
+                </figure>
+              
+            </div>
+            <div className="col-12 col-sm-12 col-md-3 m-3">
+              <figure className="figure chefs-figure">
+                    <img src={require('../assets/images/Screen+Shot+5-2.png')} className="figure-img" alt="..."/>
+                    <figcaption className="figure-caption">CHEF ANDREW BOSI</figcaption>
+              </figure>
+            </div>
+            <div className="col-12 col-sm-12 col-md-3 m-3">
+              <figure className="figure chefs-figure">
+                    <img src={require('../assets/images/resident+photo+5-3.jpg')} className="figure-img" alt="..."/>
+                    <figcaption className="figure-caption">CHEF ASANKA LORENSU</figcaption>
               </figure>
             </div>
            </div>

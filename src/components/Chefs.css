@@ -11,6 +11,13 @@
     font-family: var(--main-font);
     color: var(--main-font-color);
 
+    background-image: url('https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/9e0a99bc-5d91-483d-a1c1-2024f7018b30/92422bg-20.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 0%;
+ 
+
 }
 
  .chefs-title {
@@ -41,10 +48,6 @@
 
   }
 
-  .figure-img {
-  
-   border-radius: 100px 0 100px 100px;
-  }
 
   .chefs-figure {
     
@@ -56,10 +59,11 @@
     max-width: 300px;
     max-height: 300px;
     object-fit: cover;
+    border-radius: 6vw 0 6vw 6vw;
+
   }
 
 
- 
   @media screen and (max-width: 992px) {
 
    /* because parent ( content-footer-container ) is absolute */
@@ -71,6 +75,35 @@
  
 
   }
+
+
+  @media screen and (max-width: 767px) {
+
+     .figure-img {
+
+      width: 80vw;
+      height: 80vw;
+      border-radius: 15vw 0 15vw 15vw;
+
+     }
+  
+ 
+   }
+
+
+  @media screen and (max-width: 576px) {
+
+   
+     .figure-img {
+
+      width: 70vw;
+      height: 70vw;
+      border-radius: 24vw 0 24vw 24vw;
+
+     }
+  
+ 
+   }
 
 
   
