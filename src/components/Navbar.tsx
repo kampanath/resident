@@ -96,7 +96,7 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/venues" onClick={navClick}>VENUES</Link>
                             </li>
                             <li className="nav-item my-auto">
-                                <a className="nav-link" href="#">PRIVATE EVENTS</a>
+                                <Link className="nav-link" to="/private" onClick={navClick}>PRIVATE EVENTS</Link>
                             </li>
                             <li className="nav-item my-auto">
                                 <Link className="nav-link" to="/press" onClick={navClick}>PRESS</Link>

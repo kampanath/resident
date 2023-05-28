@@ -12,6 +12,8 @@ import Chefs from "./components/Chefs";
 import Venues from "./components/Venues";
 import Press from "./components/Press";
 import Faqs from "./components/Faqs";
+import Private from "./components/Private";
+
 
 
 
@@ -100,6 +102,8 @@ function App() {
             <Route path="/venues" element={<Venues />} />
             <Route path="/press" element={<Press />} />
             <Route path="/faqs" element={<Faqs />} />
+            <Route path="/private" element={<Private />} />
+
 
 
 
