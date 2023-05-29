@@ -3,7 +3,46 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-const Joinus = () => {
+interface formSubmitData {
+
+    onClickSubmitInterfaceJoinUs(name: string,email: string, phone: string, coverLetter: string): void;
+}
+
+let joinOurTeamInfo = {
+    userName:"",
+    userEmail:"",
+    userPhone:"",
+    coverLetter:"",
+}
+
+const Joinus = (props: formSubmitData) => {
+
+    const onClickSubmitContact = (event: React.MouseEvent<HTMLButtonElement>) => {
+        event.preventDefault();
+      
+        props.onClickSubmitInterfaceJoinUs(joinOurTeamInfo.userName, joinOurTeamInfo.userEmail, joinOurTeamInfo.userPhone, joinOurTeamInfo.coverLetter);
+    };
+
+
+    const onChangeNameINput = (event:React.ChangeEvent<HTMLInputElement>)=> {
+        joinOurTeamInfo.userName = event.currentTarget.value;
+        
+    }
+
+    const onChangeEmailINput = (event:React.ChangeEvent<HTMLInputElement>)=> {
+        joinOurTeamInfo.userEmail = event.currentTarget.value;
+        
+    }
+
+    const onChangePhoneINput = (event:React.ChangeEvent<HTMLInputElement>)=> {
+        joinOurTeamInfo.userPhone = event.currentTarget.value;
+        
+    }
+
+    const onChangeCoverINput = (event:React.ChangeEvent<HTMLInputElement>)=> {
+        joinOurTeamInfo.coverLetter = event.currentTarget.value;
+        
+    }
 
     return (
         <main className="joinus pb-5">
@@ -22,26 +61,26 @@ const Joinus = () => {
                     <Form>
                        <Form.Group className="mb-3" controlId="formFooterName">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" />
+                            <Form.Control type="text" onChange={onChangeNameINput}/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formFooterEmail">
                             <Form.Label>Email</Form.Label>
-                            <Form.Control type="email"  />
+                            <Form.Control type="email"  onChange={onChangeEmailINput}/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formFooterPhone">
                             <Form.Label>Phone Number</Form.Label>
-                            <Form.Control type="text"  />
+                            <Form.Control type="text"  onChange={onChangePhoneINput}/>
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formFooterTextArea">
                             <Form.Label>Cover Letter</Form.Label>
                             <Form.Control
                             as="textarea"
-                            style={{ height: '100px' }}
+                            style={{ height: '100px' }} onChange={onChangeCoverINput}
                             />
                         </Form.Group>
 
-                        <button className="btn btn-outline-dark contact-send-btn" id="contact-send-btn">
+                        <button className="btn btn-outline-dark contact-send-btn" id="contact-send-btn" onClick={onClickSubmitContact}>
                                     <div className="text-reserve-button">
                                         SEND
                                     </div>
