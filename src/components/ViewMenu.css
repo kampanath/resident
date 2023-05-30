@@ -1,4 +1,4 @@
-.private {
+.viewMenu {
     /* because parent ( content-footer-container ) is absolute */
     /* shift this element down unless it will be cover by Nav */
     padding-top: calc(7em + 0vh);
@@ -6,7 +6,7 @@
    
     min-height: 100vh;
    
-    background-color: var(--main-bg-color);
+    background-color: whitesmoke;
 
     font-family: var(--main-font);
     color: var(--main-font-color);
@@ -18,6 +18,35 @@
     background-position: 80% 0%;
  
 
+}
+
+
+
+
+
+div p.card-text-viewMenu {
+
+
+  font-family: 'DM Mono', monospace;;
+  font-size: 0.9rem;
+ 
+  
+  font-style: normal;
+  letter-spacing: 0em;
+ 
+}
+
+
+div p.card-text-viewMenu-chef {
+
+
+  font-family: 'DM Mono', monospace;;
+  font-size: 0.85rem;
+ 
+  
+  font-style: normal;
+  letter-spacing: 0em;
+ 
 }
 
 .card-parivate#card-parivate-id-0 {
@@ -32,7 +61,7 @@
     border:0;
 }
 
- .private-title {
+ .viewMenu-title {
   
     font-family: 'DM Mono', monospace;;
     font-size: 2.0rem;
@@ -43,7 +72,36 @@
    
   }
 
-  .private-text {
+  .vewMenu-map-container {
+   
+  }
+
+  .viewMenu-map-link a{
+    color: var(--footer-font-color)
+  }
+
+  .viewMenu-map-link a:hover{
+    color: var(--footer-font-color)
+  }
+
+  .viewMenu-map {
+   
+    width: 500px;
+    height: 250px;;
+  }
+
+  .viewMenu-title-chef {
+  
+    font-family: 'DM Mono', monospace;;
+    font-size: 2.0rem;
+    font-weight:900;
+    letter-spacing: 0em;
+    color: var(--main-font-color);
+
+   
+  }
+
+  .viewMenu-text {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.0rem;
     font-weight:400;
@@ -51,7 +109,7 @@
     letter-spacing: 0.1em;
   }
 
-  .private-carousel-img {
+  .viewMenu-carousel-img {
     width: 100vw;
     height: 600px;
     max-width: 100vw;
@@ -60,7 +118,7 @@
     object-position: 50% 25%;
   }
 
-  .private-carousel-img-active {
+  .viewMenu-carousel-img-active {
     width: 100vw;
     height: 600px;
     max-width: 100vw;
@@ -69,7 +127,7 @@
     object-position: 50% 50%;
   }
 
-  .private-carousel-img-3 {
+  .viewMenu-carousel-img-3 {
     width: 100vw;
     height: 600px;
     max-width: 100vw;
@@ -99,11 +157,11 @@
 
  
 
-  .private-collapse-container {
+  .viewMenu-collapse-container {
     width: 100%;
   }
 
-  .private-carousel-img {
+  .viewMenu-carousel-img {
     object-fit: cover;
     width:100%;
   }
@@ -123,7 +181,7 @@
     transform: translate(-50%,-50%);
   }
 
-  div.card-private {
+  div.card-viewMenu {
     width: 90%;
     max-width: max-content;
  
@@ -133,7 +191,7 @@
    
    }
 
-   .img-fluid#private-card-img {
+   .img-fluid#viewMenu-card-img {
     width:50%;
     height:auto;
     flex: 1 1 50%;
@@ -142,7 +200,7 @@
     
   }
 
-   #card-parivate-id-0 .card-horizontal-private {
+   #card-parivate-id-0 .card-horizontal-viewMenu {
     display: flex;
     flex-direction: row;
   /*  flex: 1 1 auto;*/
@@ -153,7 +211,7 @@
     
 }
 
-#card-parivate-id-1 .card-horizontal-private {
+#card-parivate-id-1 .card-horizontal-viewMenu {
     display: flex;
     flex-direction: row-reverse;
   /*  flex: 1 1 auto;*/
@@ -164,7 +222,7 @@
     
 }
 
-#card-parivate-id-2 .card-horizontal-private {
+#card-parivate-id-2 .card-horizontal-viewMenu {
     display: flex;
     flex-direction: row-reverse;
   /*  flex: 1 1 auto;*/
@@ -176,7 +234,7 @@
 }
  
 
-.card-body-private {
+.card-body-viewMenu {
     width: 50%;
     max-width: 600px;
     flex: 1 1 50%;
@@ -185,7 +243,7 @@
   
   }
   
-  .card-body-private p {
+  .card-body-viewMenu p {
    
     font-family: 'DM Mono', monospace;;
     font-size: 0.85rem;
@@ -196,12 +254,12 @@
    
   }
 
-  .private-span-1 {
+  .viewMenu-span-1 {
     font-weight: 900;
    
   }
   
-  .card-body-private h5 {
+  .card-body-viewMenu h5 {
    
     font-size: calc((0.6) * 1vw + 0.9rem);
     font-weight: 800;
@@ -209,9 +267,16 @@
    
   }
 
+  #viewMenu-chef-img-div {
+   
+    width: 100%;
+   height: auto;
+   max-width: 100%;
+   padding-bottom: 0%;
+  }
 
 
-  h5.card-title-private {
+  h5.card-title-viewMenu {
     padding-top:5%;
     margin-bottom: 5%;
 
@@ -224,7 +289,7 @@
 
 
 
-  .private .private-button {
+  .viewMenu .viewMenu-button {
    
     width: fit-content;
     border-width: 2.5px;
@@ -233,14 +298,18 @@
     font-weight: 800;
     letter-spacing: 1.7px;
     color:rgb(0, 0, 0);
-    padding-top: 2em;
+    padding-top: 2.4em;
     padding-bottom: 2em;
-
+   
     
     
   }
+
+  .card-container-viewMenu {
+    background-color: var(--main-bg-color);
+  }
   
-  .private .private-button:hover {
+  .viewMenu .viewMenu-button:hover {
       color:whitesmoke;
       background-color: var(--main-font-color);
   
@@ -252,7 +321,7 @@
 
    /* because parent ( content-footer-container ) is absolute */
     /* shift this element down unless it will be cover by Nav */
-    .private {
+    .viewMenu {
         padding-top: calc(5em + 0vh);
         margin-top: calc(0em + 5vh);
     }
@@ -270,7 +339,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    #card-parivate-id-0 .card-horizontal-private {
+    #card-parivate-id-0 .card-horizontal-viewMenu {
     
         display: flex;
         flex-direction: column;
@@ -278,7 +347,7 @@
         max-height: min-content;
         background-color: aqua;
     }
-    #card-parivate-id-1 .card-horizontal-private {
+    #card-parivate-id-1 .card-horizontal-viewMenu {
     
         display: flex;
         flex-direction: column;
@@ -286,7 +355,7 @@
         max-height: min-content;
         background-color: aqua;
     }
-    #card-parivate-id-2 .card-horizontal-private {
+    #card-parivate-id-2 .card-horizontal-viewMenu {
     
         display: flex;
         flex-direction: column;
@@ -295,7 +364,7 @@
         background-color: aqua;
     }
 
-     div.card-body-private {
+     div.card-body-viewMenu {
         width: 100%;
         padding:0%;
        margin:0%;
@@ -303,7 +372,7 @@
            
       }
 
-      div.img-fluid#private-card-img {
+      div.img-fluid#viewMenu-card-img {
    
         width: 100%;
        height: auto;
@@ -315,21 +384,20 @@
 
   @media screen and (max-width: 575px) {
 
-    .private-title {
+    .viewMenu-title {
   
        
         font-size: 1.5rem;
 
       }
 
-      div h5.card-title-private {
+      div h5.card-title-viewMenu {
         padding-top: 1em;
       
         
       }
 
      
-
     
 
    
@@ -345,7 +413,7 @@
         max-height: 350px;
     }
 
-      .private-carousel-img {
+      .viewMenu-carousel-img {
         width: 100vw;
         height: 350px;
         max-width: 100vw;
@@ -354,7 +422,7 @@
         object-position: 50% 25%;
       }
     
-      .private-carousel-img-active {
+      .viewMenu-carousel-img-active {
         width: 100vw;
         height: 350px;
         max-width: 100vw;
@@ -363,7 +431,7 @@
         object-position: 50% 50%;
       }
     
-      .private-carousel-img-3 {
+      .viewMenu-carousel-img-3 {
         width: 100vw;
         height: 350px;
         max-width: 100vw;
@@ -376,11 +444,6 @@
         font-size: 1.7rem;
         width: 100%;
       }
-
-      .private #text-apply-chef-button .text-apply-chef-button {
-        font-size: 0.9rem;
-      }
-
     
  
    }

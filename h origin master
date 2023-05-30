@@ -1,0 +1,113 @@
+[33mcommit d3d1e23c2fb939e5c936f86dc6b0c26a16b26b7f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Mon May 29 14:58:07 2023 +0700
+
+    finish legal link, newsletter submit, contact submit and joinus submit
+
+[33mcommit c942f1af4d784116198893920fba38510557f265[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Sun May 28 18:21:48 2023 +0700
+
+    finish private events
+
+[33mcommit 0c1f72355554ecc3a742115b78396dff9783c1ed[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Sat May 27 20:49:26 2023 +0700
+
+    finish faqs
+
+[33mcommit 981e9f8d760d4b3ceae4d3953d67b24ba0264a6c[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Sat May 27 13:57:23 2023 +0700
+
+    finish chefs and venues
+
+[33mcommit 6c59df6a2ff8d9bced83087c3a46143483329570[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Fri May 26 20:57:30 2023 +0700
+
+    start on chefs menu
+
+[33mcommit bcbede5a211d31e1e12d552aa1b43e7e7616e0b6[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Fri May 26 14:56:54 2023 +0700
+
+    finish about
+
+[33mcommit ba24674323b85e6302681715e58435651d1d5f6c[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Thu May 25 18:58:17 2023 +0700
+
+    finish footer
+
+[33mcommit 2152c34988100d7ece837249031af909324b6ee6[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Thu May 25 12:31:40 2023 +0700
+
+    create page use in footer link
+
+[33mcommit 73611332ee7ee108035e13805196ed4bf8a23dba[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Wed May 24 21:15:43 2023 +0700
+
+    footer layout
+
+[33mcommit c49b44143bd4fa01e927eb378ce773c182f3661f[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Wed May 24 14:57:54 2023 +0700
+
+    fixed nav bar toggle work only first click
+
+[33mcommit b66aa4e54354adad594e4cabfb1dd7e74885d835[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Wed May 24 12:47:20 2023 +0700
+
+    nav bug occur
+
+[33mcommit 6fd5d6964f1a444303f1eb4d2eb73790c8e39981[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Tue May 23 19:40:08 2023 +0700
+
+    finsh home grid img
+
+[33mcommit a3d5162c875666584061688f203118ade439803f[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Tue May 23 14:37:48 2023 +0700
+
+    img popup
+
+[33mcommit 8010ee10a6e071a7b0d0ce54459ed0b1b2c79db4[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Mon May 22 23:38:24 2023 +0700
+
+    start coding home image popup
+
+[33mcommit 4f4b5e4843a7d7fa00a00808d8ac39727625d927[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Sat May 20 11:44:47 2023 +0700
+
+    card home ok
+
+[33mcommit bd2178cd4bc20c9c36cc669cb6d9cb839231ff88[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Thu May 18 21:56:22 2023 +0700
+
+    finish nav and routing work
+
+[33mcommit 6fcbfe879de432d13dfbfbade44893f75b55c709[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Wed May 17 16:11:57 2023 +0700
+
+    adjust logobrand to be in a middle
+
+[33mcommit 7bd3655d953b4949286be20d4201a2bfed1d1eed[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Wed May 17 10:46:46 2023 +0700
+
+    first commit
+
+[33mcommit 96b2061d569d7f9a28b66238d76ab061d96ee30f[m
+Author: kampanath kappago <cosineman@gmail.com>
+Date:   Fri May 12 12:22:09 2023 +0700
+
+    Initialize project using Create React App

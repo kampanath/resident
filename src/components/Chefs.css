@@ -48,9 +48,24 @@
 
   }
 
-
-  .chefs-figure {
+  #text-apply-chef-button {
+    height: 6em;
+   
+    border-width: 2.5px;
+    font-family: var(--main-font);
+    font-weight: 800;
+    letter-spacing: 1.7px;
+    color:rgb(0, 0, 0);
     
+    display:grid ;
+    place-items: center;
+  }
+  
+  #text-apply-chef-button:hover {
+      color:whitesmoke;
+      background-color: var(--main-font-color);
+  
+  
   }
 
   .figure-img {
@@ -63,6 +78,10 @@
 
   }
 
+
+  .chefs #text-apply-chef-button .text-apply-chef-button {
+    font-size: 1rem;
+  }
 
   @media screen and (max-width: 992px) {
 
@@ -101,6 +120,10 @@
       border-radius: 24vw 0 24vw 24vw;
 
      }
+
+     .chefs #text-apply-chef-button .text-apply-chef-button {
+      font-size: 0.7rem;
+    }
   
  
    }

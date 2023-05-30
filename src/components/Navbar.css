@@ -30,6 +30,8 @@
 }
 
 
+
+
 #reserve-button:hover {
     color:whitesmoke;
     background-color: var(--main-font-color);
@@ -170,4 +172,9 @@ a.nav-link:hover  {
     .menu-icon {
         display : none ;
     }
+}
+
+
+#btn-inner-text-nav {
+    margin-top: 1em;
 }

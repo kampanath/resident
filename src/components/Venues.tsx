@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import "./Venues.css";
 
 const Venues = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
     return (
         <>

@@ -1,6 +1,12 @@
+import { Link } from "react-router-dom";
 import "./Chefs.css";
+import { useEffect } from "react";
 
 const Chefs = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
     return (
         <>
@@ -25,100 +31,141 @@ const Chefs = () => {
 
            <div className="row mb-5 justify-content-center ">
             <div className="col-12 col-sm-12 col-md-3 m-3 ">
-             
-                <figure className="figure chefs-figure ">
+
+            <Link className="" role="button"  to="/chefDetail">
+             <figure className="figure chefs-figure ">
                         <img src={require('../assets/images/resident+photo+3.jpg')} className="figure-img  " alt="..."/>
                         <figcaption className="figure-caption">CHEF AARTHI SAMPATH</figcaption>
-                </figure>
+              </figure>     
+            </Link>
+             
+               
               
             </div>
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/Screenshot+2023-04-19+at+4.40.10+PM+-+Abigail+Kirn.png')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ABIGAIL KIRN</figcaption>
               </figure>
+              </Link>
             </div>
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
+
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/img-home-7.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ADJI JALLOH</figcaption>
               </figure>
+              </Link>
             </div>
            </div>
 
 
            <div className="row mb-5 justify-content-center">
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
              
                 <figure className="figure chefs-figure ">
                         <img src={require('../assets/images/resident+photo+4.jpg')} className="figure-img  " alt="..."/>
                         <figcaption className="figure-caption">CHEF ADOLFO GARCIA</figcaption>
                 </figure>
-              
+                </Link>
             </div>
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
+
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/resident+photo+5.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF AJESH DESHPANDE</figcaption>
               </figure>
+              </Link>
             </div>
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
+
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/Screen2B2022.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ALAN DELGADO</figcaption>
               </figure>
+              </Link>
             </div>
            </div>
 
            <div className="row mb-5 justify-content-center">
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
              
                 <figure className="figure chefs-figure ">
                         <img src={require('../assets/images/Screen+Shot+4-1.png')} className="figure-img  " alt="..."/>
                         <figcaption className="figure-caption">CHEF ALMIRA SESSION</figcaption>
                 </figure>
-              
+                </Link>
             </div>
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
+
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/Screen+Shot+4-2.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ANDREW BOSI</figcaption>
               </figure>
+              </Link>
             </div>
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
+
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/Screen+Shot+4-3.png')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ASANKA LORENSU</figcaption>
               </figure>
+              </Link>
             </div>
            </div>
 
 
            <div className="row mb-5 justify-content-center">
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
              
                 <figure className="figure chefs-figure ">
                         <img src={require('../assets/images/Screen+Shot+5-1.png')} className="figure-img  " alt="..."/>
                         <figcaption className="figure-caption">CHEF ALMIRA SESSION</figcaption>
                 </figure>
-              
+                </Link>
             </div>
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
+
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/Screen+Shot+5-2.png')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ANDREW BOSI</figcaption>
               </figure>
+              </Link>
             </div>
             <div className="col-12 col-sm-12 col-md-3 m-3">
+            <Link className="" role="button"  to="/chefDetail">
+
               <figure className="figure chefs-figure">
                     <img src={require('../assets/images/resident+photo+5-3.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ASANKA LORENSU</figcaption>
               </figure>
+              </Link>
             </div>
            </div>
 
           
           
+           <div className="row mb-5 justify-content-center ">
+            <div className="col-6 col-sm-5 col-md-4 ">
+             <Link className="btn btn-outline-dark " role="button"  to="/joinus" id="text-apply-chef-button">
+                  <div className="text-apply-chef-button ">
+                     APPLY TO BE A RESIDENT CHEF
+                  </div>
+              </Link>
+            </div>
+          </div>
+
+           
 
           </div>
         </main>

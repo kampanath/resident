@@ -1,6 +1,12 @@
+import { useEffect } from "react";
 import "./Private.css";
+import { Link } from "react-router-dom";
 
 const Private = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <>
@@ -64,12 +70,12 @@ const Private = () => {
                                 experiences as-is, we invite you to customize the menu and add decor, photo moments, entertainment, and experiential elements to
                                 make the event your own.</p>
                             <div className="center-container mt-1 " style={ { height:"250px"}}>
-                                <div className="center" style={ { width:"100%"}}>
-                                    <button className="nav-link btn btn-outline-dark private-button mx-auto">
-                                        <div className="text-reserve-button">
-                                            SUBMIT A PRIVATE EVENT REQUEST
+                                <div className="center col" >
+                                    <Link className="btn btn-outline-dark" role="button"  to="/submitPrivate" id="text-apply-chef-button">
+                                        <div className="text-apply-chef-button ">
+                                           SUBMIT A PRIVATE EVENT REQUEST
                                         </div>
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -134,12 +140,11 @@ const Private = () => {
                                         mingling in a members’-only club in Rockefeller Center, our luxury venues offer an intimate, 
                                         elevated backdrop for your experience.</p>
 
-                                        
-                                        <button className="btn btn-outline-dark m-5 mx-auto private-button" >
-                                            <div className="text-dinner-button">
-                                            EXPLORE RESIDENT VENUES
-                                            </div>
-                                        </button>
+                                        <Link className="btn btn-outline-dark m-5 mx-auto private-button " role="button"  to="/venues" id="text-apply-chef-button">
+                                         <div className="text-apply-chef-button ">
+                                          EXPLORE RESIDENT VENUES
+                                         </div>
+                                         </Link>
 
                                     </div>
                                 </div>
@@ -168,12 +173,11 @@ const Private = () => {
                                          Coastal Italian, Indian, Japanese, Haitian, Nordic, and Venezuelan - the options are endless. 
                                          Once you have a date in mind, we’ll confirm which of our chefs are available to host your event.</p>
 
-                                       
-                                        <button className="btn btn-outline-dark m-5 mx-auto private-button" >
-                                            <div className="text-dinner-button">
-                                            SEE RESIDENT’S CHEF ROSTER
-                                            </div>
-                                        </button>
+                                        <Link className="btn btn-outline-dark m-5 mx-auto private-button " role="button"  to="/chefs" id="text-apply-chef-button">
+                                         <div className="text-apply-chef-button ">
+                                         SEE RESIDENT’S CHEF ROSTER
+                                         </div>
+                                         </Link>
 
                                     </div>
                                 </div>
@@ -189,11 +193,14 @@ const Private = () => {
                     <div className="row justify-content-center mt-5 mb-5 private-row  ">
                         <div className="col-12 col-md-12 col-lg-10 col-xl-10 p-0 ">
                           <h5 className="card-title card-title-private px-0 px-sm-5">GET MATCHED WITH A CHEF</h5>
-                          <button className="btn btn-outline-dark m-1 mx-auto private-button " >
-                                <div className="text-dinner-button">
-                                    SUBMIT A PRIVATE EVENT REQUEST
+                        
+
+                         <Link className="btn btn-outline-dark m-5 mx-auto private-button " role="button"  to="/submitPrivate" id="text-apply-chef-button">
+                                <div className="text-apply-chef-button ">
+                                SUBMIT A PRIVATE EVENT REQUEST
                                 </div>
-                         </button>
+                        </Link>
+                        
                         </div>
                     </div>
 

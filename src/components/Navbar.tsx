@@ -105,11 +105,11 @@ const Navbar = () => {
                                <Link className="nav-link" to="/faqs" onClick={navClick}>FAQS</Link>
                             </li>
                             <li className="nav-item">
-                                <button className="nav-link btn btn-outline-dark" id="reserve-button">
-                                    <div className="text-reserve-button">
+                                <Link className="nav-link btn btn-outline-dark btn-link" id="reserve-button" to="/reserve">
+                                    <div className="text-reserve-button-nav" id="btn-inner-text-nav">
                                         RESERVATIONS
                                     </div>
-                                </button>
+                                </Link>
                             </li>
                         </ul>
 

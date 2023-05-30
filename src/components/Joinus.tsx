@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./Joinus.css";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -16,6 +17,10 @@ let joinOurTeamInfo = {
 }
 
 const Joinus = (props: formSubmitData) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const onClickSubmitContact = (event: React.MouseEvent<HTMLButtonElement>) => {
         event.preventDefault();

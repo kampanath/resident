@@ -1,0 +1,102 @@
+.submitPrivate {
+    /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    padding-top: calc(7em + 0vh);
+    margin-top: calc(0em + 15vh);
+
+    min-height: 100vh;
+
+
+
+    background-color: var(--footer-bg-color);
+
+
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+
+}
+
+.submitPrivate Form {
+    color: whitesmoke;
+}
+
+.submitPrivate-text-container {}
+
+
+.submitPrivate-text {
+    word-break: break-all;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1.7px;
+    color: whitesmoke;
+}
+
+.submitPrivate-header-text {
+
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: 1.7px;
+    color: whitesmoke;
+
+}
+
+#submitPrivate-send-btn {
+
+    color: var(--footer-font-color);
+
+
+    height: 4em;
+
+    position: relative;
+
+    border-width: 2.5px;
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 1.7px;
+
+    padding-left: 3em;
+    padding-right: 3em;
+
+    border-color: var(--footer-font-color);
+    /*
+    display: grid;
+    place-items: center;*/
+}
+
+.text-submitPrivate-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+
+
+}
+
+
+#submitPrivate-send-btn:hover {
+
+    color: whitesmoke;
+
+    background-color: var(--footer-font-color);
+
+}
+
+
+.submitPrivate-formgroup {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    /* because parent ( content-footer-container ) is absolute */
+    /* shift this element down unless it will be cover by Nav */
+    .submitPrivate {
+        padding-top: calc(5em + 0vh);
+        margin-top: calc(0em + 5vh);
+    }
+
+
+}

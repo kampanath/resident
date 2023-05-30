@@ -16,6 +16,14 @@ import Private from "./components/Private";
 import Policy from "./components/Policy";
 import Term from "./components/Term";
 import Access from "./components/Access";
+import Reserve from "./components/Reserve";
+import ViewMenu from "./components/ViewMenu";
+import ChefDetail from "./components/ChefDetail";
+import SubmitPrivate from "./components/SubmitPrivate";
+
+
+
+
 
 
 
@@ -34,6 +42,8 @@ let app_modal: any;
 let app_modal_newsLetter: any;
 let app_modal_contact: any;
 let app_modal_joinUs: any;
+let app_modal_contact_private_event: any;
+
 
 
 
@@ -41,6 +51,8 @@ let myBootStrapModal: bootstrap.Modal;
 let myBootStrapModal_newsLetter: bootstrap.Modal;
 let myBootStrapModal_contact: bootstrap.Modal;
 let myBootStrapModal_joinUs: bootstrap.Modal;
+let myBootStrapModal_contactPrivateEvent: bootstrap.Modal;
+
 
 
 
@@ -55,8 +67,10 @@ function App() {
   const [contactSubmitProp, setContactSubmitProp] = useState({userName:'',userEmail:'',userPhone:'',userMessage:''});
   const [joinUsSubmitProp, setJoinUsSubmitProp] = useState({userName:'',userEmail:'',userPhone:'',coverLetter:''});
 
-
-
+  const [contactPrivateEventProp, setContactPrivateEventProp] = useState({  name:'',email: '',phone: ''
+    ,company: '',desiredVenue: '',eventDate: ''
+    ,startTime: '',endTime: '',typeOfEvent: ''
+    ,numberOfpeople: '',additionInfo: ''});
 
   let modal_Ref = useRef(null);
 
@@ -64,8 +78,7 @@ function App() {
   let modal_contact_Ref = useRef(null);
   let modal_joinUs_Ref = useRef(null);
 
-
-
+  let modal_contactPrivateEvent_Ref = useRef(null);
 
 
   const onClickImg = (imgName: string) => {
@@ -83,6 +96,21 @@ function App() {
     setNewsLetterSubmitProp({ userName : name, useLastName:lastName ,userEmail:email  });
     
     myBootStrapModal_newsLetter.show();
+    
+  }
+
+
+  const onClickSubmitContactPrivateEvent_App = (name: string,email: string,phone: string
+    ,company: string,desiredVenue: string,eventDate: string
+    ,startTime: string,endTime: string,typeOfEvent: string
+    ,numberOfpeople: string,additionInfo: string) => {
+
+      setContactPrivateEventProp({ name: name,email: email,phone: phone
+      ,company: company,desiredVenue: desiredVenue,eventDate: eventDate
+      ,startTime: startTime,endTime: endTime,typeOfEvent: typeOfEvent
+      ,numberOfpeople: numberOfpeople,additionInfo: additionInfo  });
+    
+    myBootStrapModal_contactPrivateEvent.show();
     
   }
 
@@ -109,6 +137,8 @@ function App() {
     app_modal_newsLetter = modal_newsLetter_Ref.current;
     app_modal_contact = modal_contact_Ref.current;
     app_modal_joinUs = modal_joinUs_Ref.current;
+    app_modal_contact_private_event = modal_contactPrivateEvent_Ref.current;
+
 
 
    
@@ -116,8 +146,10 @@ function App() {
     myBootStrapModal_newsLetter = new Modal(app_modal_newsLetter);
     myBootStrapModal_contact = new Modal(app_modal_contact);
     myBootStrapModal_joinUs = new Modal(app_modal_joinUs);
+    myBootStrapModal_contactPrivateEvent = new Modal(app_modal_contact_private_event);
+
   
-  }, [imgLocState,newsLetterSubmitProp,contactSubmitProp,joinUsSubmitProp]);
+  }, [imgLocState,newsLetterSubmitProp,contactSubmitProp,joinUsSubmitProp,contactPrivateEventProp]);
 
   return (
     <>
@@ -137,6 +169,34 @@ function App() {
             </div>
           </div>
         </div>
+
+        {/* modal for contact private events click submit  */}
+      <div className="modal" tabIndex={-1} ref={modal_contactPrivateEvent_Ref}>
+        <div className="modal-dialog bg-info">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title">Thank you</h5>
+           
+            </div>
+            <div className="modal-body">
+
+              <p>Your information is </p>
+              <p>name : {`${contactPrivateEventProp.name}` }  </p>
+              <p>email : {`${contactPrivateEventProp.email}` }  </p>
+              <p>phone : {`${contactPrivateEventProp.phone}` }  </p>
+              <p>company : {`${contactPrivateEventProp.company}` }  </p>
+              <p>desired space/venue : {`${contactPrivateEventProp.desiredVenue}` }  </p>
+              <p>event date : {`${contactPrivateEventProp.eventDate}` }  </p>
+              <p>start time : {`${contactPrivateEventProp.startTime}` }  </p>
+              <p>end time : {`${contactPrivateEventProp.endTime}` }  </p>
+              <p>type of event : {`${contactPrivateEventProp.typeOfEvent}` }  </p>
+              <p>number of people : {`${contactPrivateEventProp.numberOfpeople}` }  </p>
+              <p>addition information : {`${contactPrivateEventProp.additionInfo}` }  </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
 
        {/* modal for newsletter click submit  */}
       <div className="modal" tabIndex={-1} ref={modal_newsLetter_Ref}>
@@ -214,15 +274,10 @@ function App() {
             <Route path="/policy" element={<Policy />} />
             <Route path="/term" element={<Term />} />
             <Route path="/access" element={<Access />} />
-
-
-
-
-
-
-
-
-
+            <Route path="/reserve" element={<Reserve />} />
+            <Route path="/viewMenu" element={<ViewMenu />} />
+            <Route path="/chefDetail" element={<ChefDetail />} />
+            <Route path="/submitPrivate" element={<SubmitPrivate onClickSubmitInterface={onClickSubmitContactPrivateEvent_App}/>} />
 
 
           </Routes>

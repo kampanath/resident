@@ -1,0 +1,392 @@
+.reserve {
+  /* because parent ( content-footer-container ) is absolute */
+  /* shift this element down unless it will be cover by Nav */
+  padding-top: calc(7em + 0vh);
+  margin-top: calc(0em + 15vh);
+
+  min-height: 100vh;
+
+  background-color: var(--main-bg-color);
+
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+
+  background-image: url('https://images.squarespace-cdn.com/content/v1/632c1d421b2c5c03369902ee/9e0a99bc-5d91-483d-a1c1-2024f7018b30/92422bg-20.png');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 0%;
+
+
+}
+
+.card-parivate#card-parivate-id-0 {
+  border: 0;
+}
+
+.card-parivate#card-parivate-id-1 {
+  border: 0;
+}
+
+.card-parivate#card-parivate-id-2 {
+  border: 0;
+}
+
+.reserve-title {
+
+  font-family: 'DM Mono', monospace;
+  ;
+  font-size: 3.0rem;
+  font-weight: 900;
+  letter-spacing: 0em;
+  color: var(--main-font-color);
+
+
+}
+
+.reserve-text {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.0rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+
+.reserve-carousel-img {
+  width: 100vw;
+  height: 600px;
+  max-width: 100vw;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: 50% 25%;
+}
+
+.reserve-carousel-img-active {
+  width: 100vw;
+  height: 600px;
+  max-width: 100vw;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.reserve-carousel-img-3 {
+  width: 100vw;
+  height: 600px;
+  max-width: 100vw;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: 50% 5%;
+}
+
+.parivate-img-carousel-active-container {
+  position: relative;
+  text-align: center;
+
+}
+
+.parivate-img-centered-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 4.7px;
+  color: white;
+}
+
+
+
+.reserve-collapse-container {
+  width: 100%;
+}
+
+.reserve-carousel-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.center-container {
+  position: relative;
+  height: 100px;
+  border-bottom: 1px solid var(--main-font-color);
+
+
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.card-reserve {
+  width: 90%;
+  max-width: max-content;
+
+  background-color: white;
+
+  border: 0;
+
+}
+
+/*
+   .img-fluid#reserve-card-img {
+    width:100%;
+    height:auto;
+    flex: 1 1 50%;
+    max-width: 600px;
+    background-color: var(--main-bg-color);
+    
+  }
+*/
+.reserve-card-img .card-img-top-reserve {
+  width: 100%;
+  height: auto;
+  flex: 1 1 50%;
+  /*
+    max-width: 600px; */
+  background-color: white;
+
+}
+
+.card-horizontal-reserve {
+  display: flex;
+  flex-direction: column;
+  /*  flex: 1 1 auto;*/
+  height: max-content;
+  width: 100%;
+
+
+
+}
+
+.text-reserve-button {
+  font-family: 'DM Mono', monospace;
+  ;
+  font-size: 0.85rem;
+
+
+  font-style: normal;
+  letter-spacing: 0em;
+
+  transform: translateY(-30%);
+}
+
+
+.card-body-reserve {
+  width: 100%;
+  /*
+    max-width: 600px; */
+  flex: 1 1 50%;
+  background-color: white;
+  max-height: 100%;
+
+}
+
+.card-body-reserve p {
+
+  font-family: 'DM Mono', monospace;
+  ;
+  font-size: 0.85rem;
+
+
+  font-style: normal;
+  letter-spacing: 0em;
+
+}
+
+.reserve-span-1 {
+  font-weight: 900;
+
+}
+
+.card-body-reserve h5 {
+
+  font-size: calc((0.6) * 1vw + 0.9rem);
+  font-weight: 800;
+  letter-spacing: 1.7px;
+
+}
+
+
+
+h6.card-title-reserve {
+  padding-top: 5%;
+  margin-bottom: 5%;
+
+  font-family: 'DM Mono', monospace;
+  ;
+  font-size: 1.0rem;
+  font-weight: 900;
+  letter-spacing: 0em;
+  color: var(--main-font-color);
+}
+
+
+
+.reserve .reserve-button {
+
+  width: fit-content;
+  border-width: 2.5px;
+  font-family: var(--main-font);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 1.7px;
+  color: rgb(0, 0, 0);
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  height: 5em;
+
+
+  border-width: 2.5px;
+  border-color: var(--main-font-color);
+
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 1.7px;
+  color: var(--main-font-color);
+text-decoration: none;
+
+}
+
+.reserve .reserve-button:hover {
+  color: whitesmoke;
+  background-color: var(--main-font-color);
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+  /* because parent ( content-footer-container ) is absolute */
+  /* shift this element down unless it will be cover by Nav */
+  .reserve {
+    padding-top: calc(5em + 0vh);
+    margin-top: calc(0em + 5vh);
+  }
+
+  .parivate-img-centered-text {
+
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  div.card-parivate {
+    width: 90%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .card-horizontal-reserve {
+
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    max-height: min-content;
+
+  }
+
+  div.card-body-reserve {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+
+
+  }
+
+  /*
+      div.img-fluid#reserve-card-img {
+   
+        width: 100%;
+       height: auto;
+       max-width: 100%;
+       padding-bottom: 0%;
+      }*/
+
+  .reserve-card-img .card-img-top-reserve {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 0%;
+    background-color: black;
+
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+
+  .reserve-title {
+
+
+    font-size: 1.5rem;
+
+  }
+
+  div h5.card-title-reserve {
+    padding-top: 1em;
+
+
+  }
+
+
+
+
+
+
+
+  div.card-parivate {
+    width: 85%;
+  }
+
+  .parivate-img-carousel-active-container {
+    width: 100vw;
+    height: 350px;
+    max-width: 100vw;
+    max-height: 350px;
+  }
+
+  .reserve-carousel-img {
+    width: 100vw;
+    height: 350px;
+    max-width: 100vw;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: 50% 25%;
+  }
+
+  .reserve-carousel-img-active {
+    width: 100vw;
+    height: 350px;
+    max-width: 100vw;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .reserve-carousel-img-3 {
+    width: 100vw;
+    height: 350px;
+    max-width: 100vw;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: 50% 5%;
+  }
+
+  .parivate-img-centered-text {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+
+
+}

@@ -1,6 +1,12 @@
+import { Link } from "react-router-dom";
 import "./About.css";
+import { useEffect } from "react";
 
 const About = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <>
@@ -60,17 +66,17 @@ const About = () => {
                             featuring chefs from Michelin restaurants. Pull up a seat at the chef’s table, we can’t wait to host you. </p>
 
                             <div className="d-flex flex-column flex-lg-row">
-                                <button className="btn btn-outline-dark m-3" id="book-private-dinner-button">
+                                <Link className="btn btn-outline-dark m-3" to="/private" role="button" id="book-private-dinner-button">
                                     <div className="text-book-private-dinner-button">
                                         BOOK A PRIVATE EVENT
                                     </div>
-                                </button>
+                                </Link>
 
-                                <button className="btn btn-outline-dark m-3" id="book-private-dinner-button">
+                                <Link className="btn btn-outline-dark m-3" to="/reserve" id="book-private-dinner-button">
                                     <div className="text-book-private-dinner-button">
                                         JOIN US FOR DINNER
                                     </div>
-                                </button>
+                                </Link>
                             </div>
                           
 

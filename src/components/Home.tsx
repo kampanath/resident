@@ -1,6 +1,7 @@
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./Home.css";
+import { Link } from 'react-router-dom';
 
 interface imgPopup {
 
@@ -9,6 +10,10 @@ interface imgPopup {
 
 
 const Home = (props: imgPopup) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
 
     const imgClickHandler = (event: React.MouseEvent<HTMLAnchorElement>) => {
@@ -43,11 +48,11 @@ const Home = (props: imgPopup) => {
                                 and lofts around New York City.</p>
                             <p className="card-text card-text-home px-5">Reserve your tickets below, or <span className="book-private">book a private
                                 event here.</span></p>
-                            <button className="btn btn-outline-dark m-5" id="up-coming-dinner-button">
+                            <Link className="btn btn-outline-dark m-5" role="button"  to="/reserve" id="up-coming-dinner-button">
                                 <div className="text-dinner-button">
                                     SEE UP COMING DINNERS
                                 </div>
-                            </button>
+                            </Link>
 
                         </div>
                     </div>

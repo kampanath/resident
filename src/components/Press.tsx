@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import "./Press.css";
 
 const Press = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
     return (
         <>

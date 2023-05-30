@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./Legal.css";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -6,6 +7,10 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
 const Legal = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <main className="legal pb-5">

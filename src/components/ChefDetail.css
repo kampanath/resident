@@ -1,4 +1,4 @@
-.about {
+.chefDetail {
     /* because parent ( content-footer-container ) is absolute */
     /* shift this element down unless it will be cover by Nav */
     padding-top: calc(7em + 0vh);
@@ -6,7 +6,7 @@
    
     min-height: 100vh;
    
-    background-color: var(--main-bg-color);
+    background-color: var(--footer-bg-color);
 
     font-family: var(--main-font);
     color: var(--main-font-color);
@@ -14,13 +14,12 @@
 }
 
 
-div p.card-text-about {
+.chefDetail .card-body-chefDetail p.card-text-chefDetail {
 
 
     font-family: 'DM Mono', monospace;;
-    font-size: 1.0rem;
+    font-size: 0.85rem;
    
-    
     font-style: normal;
     letter-spacing: 0em;
    
@@ -28,19 +27,19 @@ div p.card-text-about {
 
 
 
- .about-background-container {
+ .chefDetail-background-container {
   
     padding:0;
     margin:0;
     min-height: 80vh;
     font-family: var(--main-font);
-    color: var(--main-font-color);
+    color: white;
   }
 
  
   @media screen and (max-width: 992px) {
 
-    div.card-horizontal-about {
+    div.card-horizontal-chefDetail {
     
       display: flex;
       flex-direction:column-reverse;
@@ -49,20 +48,29 @@ div p.card-text-about {
       max-height: min-content;
       
   }
-    div.card-about {
+    div.card-chefDetail {
       width: 90%;
       
     }
 
-    div#about-card-img#about-card-img {
+
+    .card-horizontal-chefDetail #chefDetail-card-img#chefDetail-card-img {
+        width:100%;
+        padding:0%;
+        margin:0%;
+        
+      }
+
+    /*
+    div#chefDetail-card-img#chefDetail-card-img {
    
       width: 100%;
      height: auto;
      max-width: 100%;
      padding-bottom: 0%;
     }
-
-    div.card-body-about {
+*/
+    div.card-body-chefDetail {
       width: 100%;
       padding:0%;
      margin:0%;
@@ -70,7 +78,7 @@ div p.card-text-about {
          
     }
 
-    div h5.card-title-about {
+    div h5.card-title-chefDetail {
       padding-top: 1em;
     
       
@@ -78,7 +86,7 @@ div p.card-text-about {
 
       /* because parent ( content-footer-container ) is absolute */
     /* shift this element down unless it will be cover by Nav */
-    .about {
+    .chefDetail {
         padding-top: calc(5em + 0vh);
         margin-top: calc(0em + 5vh);
     }
@@ -87,46 +95,46 @@ div p.card-text-about {
   }
 
 
-  div.card-about {
+  div.card-chefDetail {
     width: 90%;
     max-width: max-content;
  
-    background-color: var(--main-bg-color);
+    background-color: var(--footer-bg-color);
     
     border: 0;
    
    }
  
-   .card-horizontal-about {
+   .card-horizontal-chefDetail {
      display: flex;
-     flex-direction: row-reverse;
+     flex-direction: row;
    /*  flex: 1 1 auto;*/
      height: max-content;
      width: 100%;
  
-     background-color: var(--main-bg-color);
+     background-color: var(--footer-bg-color);
      
  }
  
- #about-card-img#about-card-img {
+ #chefDetail-card-img#chefDetail-card-img {
    width:50%;
    height:auto;
    flex: 1 1 50%;
-   max-width: 650px;
-   background-color: var(--main-bg-color);
+   max-width: 500px;
+   background-color: var(--footer-bg-color);
    
  }
  
- .card-body-about {
+ .card-body-chefDetail {
    width: 50%;
-   max-width: 650px;
+   max-width: 500px;
    flex: 1 1 50%;
-   background-color: var(--main-bg-color);
+   background-color: var(--footer-bg-color);
    max-height: 100%;
  
  }
  
- .card-body-about p {
+ .card-body-chefDetail p {
   
    font-size: calc((0.5) * 0.3vw + 0.8rem);
    font-weight: 600;
@@ -134,7 +142,7 @@ div p.card-text-about {
   
  }
  
- .card-body-about h5 {
+ .card-body-chefDetail h5 {
   
    font-size: calc((0.6) * 1vw + 0.9rem);
    font-weight: 800;
@@ -142,7 +150,7 @@ div p.card-text-about {
   
  }
  
- h5.card-title-about {
+ h5.card-title-chefDetail {
    padding-top:5%;
    margin-bottom: 15%;
    letter-spacing: 4.7px;
@@ -158,7 +166,7 @@ div p.card-text-about {
     font-size: 1rem;
     font-weight: 800;
     letter-spacing: 1.7px;
-    color:rgb(0, 0, 0);
+    color:var( --footer-font-color);
     
     display: grid;
     place-items: center;
@@ -182,7 +190,7 @@ div p.card-text-about {
   }
 
 
-  .about-carousel-img {
+  .chefDetail-carousel-img {
     object-fit: cover;
     width:100%;
   }
