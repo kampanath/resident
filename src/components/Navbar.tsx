@@ -105,7 +105,7 @@ const Navbar = () => {
                                <Link className="nav-link" to="/faqs" onClick={navClick}>FAQS</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link btn btn-outline-dark btn-link" id="reserve-button" to="/reserve">
+                                <Link className="nav-link btn btn-outline-dark btn-link" id="reserve-button" to="/reserve" onClick={navClick}>
                                     <div className="text-reserve-button-nav" id="btn-inner-text-nav">
                                         RESERVATIONS
                                     </div>

@@ -23,6 +23,15 @@
 }
 
 
+.book-private {
+  color:var(--main-font-color);
+}
+
+.book-private:hover {
+  color:var(--main-font-color);
+}
+
+
 .contact-us-text {
     word-break: break-all;
 }

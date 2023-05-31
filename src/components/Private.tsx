@@ -89,7 +89,7 @@ const Private = () => {
                          <div className="card card-parivate mx-auto" id="card-parivate-id-0">
                                 <div className="card-horizontal-private bg-warning ">
                                     <div className="img-fluid" id="private-card-img">
-                                        <img src={require('../assets/images/Connor+Food+4+-+6.3.22+(1).jpg')} className="card-img-top" id="private-card-img" alt="..." />
+                                        <img src={require('../assets/images/ConnorFood.jpg')} className="card-img-top" id="private-card-img" alt="..." />
                                     </div>
                                     <div className="card-body card-body-private">
                                         <h5 className="card-title card-title-private px-0 px-sm-5">BUILD YOUR EXPERIENCE</h5>
@@ -162,7 +162,7 @@ const Private = () => {
                          <div className="card card-parivate mx-auto" id="card-parivate-id-2">
                                 <div className="card-horizontal-private">
                                     <div className="img-fluid" id="private-card-img">
-                                        <img src={require('../assets/images/Screen+Shot+2023-03-28+at+2.44.04+PM.png')} className="card-img-top" id="private-card-img" alt="..." />
+                                        <img src={require('../assets/images/ScreenPM557.png')} className="card-img-top" id="private-card-img" alt="..." />
                                     </div>
                                     <div className="card-body card-body-private">
                                         <h5 className="card-title card-title-private px-0 px-sm-5">GET MATCHED WITH A CHEF</h5>

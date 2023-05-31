@@ -24,7 +24,7 @@ const ChefDetail = () => {
                         */}
                         
                         <div className="img-fluid" id="chefDetail-card-img">
-                            <img src={require('../assets/images/resident+photo+3.jpg')} className="card-img-top" id="card-img-chefDetail" alt="..." />
+                            <img src={require('../assets/images/residentphoto3.jpg')} className="card-img-top" id="card-img-chefDetail" alt="..." />
                         </div>
 
                         <div className="card-body card-body-chefDetail ms-5 ">

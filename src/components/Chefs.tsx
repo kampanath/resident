@@ -34,7 +34,7 @@ const Chefs = () => {
 
             <Link className="" role="button"  to="/chefDetail">
              <figure className="figure chefs-figure ">
-                        <img src={require('../assets/images/resident+photo+3.jpg')} className="figure-img  " alt="..."/>
+                        <img src={require('../assets/images/residentphoto3.jpg')} className="figure-img  " alt="..."/>
                         <figcaption className="figure-caption">CHEF AARTHI SAMPATH</figcaption>
               </figure>     
             </Link>
@@ -45,7 +45,7 @@ const Chefs = () => {
             <div className="col-12 col-sm-12 col-md-3 m-3">
             <Link className="" role="button"  to="/chefDetail">
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/Screenshot+2023-04-19+at+4.40.10+PM+-+Abigail+Kirn.png')} className="figure-img" alt="..."/>
+                    <img src={require('../assets/images/ScreenshotAbigailKirn.png')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ABIGAIL KIRN</figcaption>
               </figure>
               </Link>
@@ -67,7 +67,7 @@ const Chefs = () => {
             <Link className="" role="button"  to="/chefDetail">
              
                 <figure className="figure chefs-figure ">
-                        <img src={require('../assets/images/resident+photo+4.jpg')} className="figure-img  " alt="..."/>
+                        <img src={require('../assets/images/residentphoto4.jpg')} className="figure-img  " alt="..."/>
                         <figcaption className="figure-caption">CHEF ADOLFO GARCIA</figcaption>
                 </figure>
                 </Link>
@@ -76,7 +76,7 @@ const Chefs = () => {
             <Link className="" role="button"  to="/chefDetail">
 
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/resident+photo+5.jpg')} className="figure-img" alt="..."/>
+                    <img src={require('../assets/images/residentphoto5.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF AJESH DESHPANDE</figcaption>
               </figure>
               </Link>
@@ -97,7 +97,7 @@ const Chefs = () => {
             <Link className="" role="button"  to="/chefDetail">
              
                 <figure className="figure chefs-figure ">
-                        <img src={require('../assets/images/Screen+Shot+4-1.png')} className="figure-img  " alt="..."/>
+                        <img src={require('../assets/images/ScreenShot41.png')} className="figure-img  " alt="..."/>
                         <figcaption className="figure-caption">CHEF ALMIRA SESSION</figcaption>
                 </figure>
                 </Link>
@@ -106,7 +106,7 @@ const Chefs = () => {
             <Link className="" role="button"  to="/chefDetail">
 
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/Screen+Shot+4-2.jpg')} className="figure-img" alt="..."/>
+                    <img src={require('../assets/images/ScreenShot42.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ANDREW BOSI</figcaption>
               </figure>
               </Link>
@@ -115,7 +115,7 @@ const Chefs = () => {
             <Link className="" role="button"  to="/chefDetail">
 
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/Screen+Shot+4-3.png')} className="figure-img" alt="..."/>
+                    <img src={require('../assets/images/ScreenShot43.png')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ASANKA LORENSU</figcaption>
               </figure>
               </Link>
@@ -128,7 +128,7 @@ const Chefs = () => {
             <Link className="" role="button"  to="/chefDetail">
              
                 <figure className="figure chefs-figure ">
-                        <img src={require('../assets/images/Screen+Shot+5-1.png')} className="figure-img  " alt="..."/>
+                        <img src={require('../assets/images/ScreenShot51.png')} className="figure-img  " alt="..."/>
                         <figcaption className="figure-caption">CHEF ALMIRA SESSION</figcaption>
                 </figure>
                 </Link>
@@ -137,7 +137,7 @@ const Chefs = () => {
             <Link className="" role="button"  to="/chefDetail">
 
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/Screen+Shot+5-2.png')} className="figure-img" alt="..."/>
+                    <img src={require('../assets/images/ScreenShot52.png')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ANDREW BOSI</figcaption>
               </figure>
               </Link>
@@ -146,7 +146,7 @@ const Chefs = () => {
             <Link className="" role="button"  to="/chefDetail">
 
               <figure className="figure chefs-figure">
-                    <img src={require('../assets/images/resident+photo+5-3.jpg')} className="figure-img" alt="..."/>
+                    <img src={require('../assets/images/residentphoto53.jpg')} className="figure-img" alt="..."/>
                     <figcaption className="figure-caption">CHEF ASANKA LORENSU</figcaption>
               </figure>
               </Link>

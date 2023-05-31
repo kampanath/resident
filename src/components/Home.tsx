@@ -13,7 +13,7 @@ const Home = (props: imgPopup) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
 
 
     const imgClickHandler = (event: React.MouseEvent<HTMLAnchorElement>) => {
@@ -29,7 +29,9 @@ const Home = (props: imgPopup) => {
             <div className="embed-responsive video-wrapper" style={{ overflow: "hidden" }}>
 
                 <video loop autoPlay muted className="embed-responsive-item">
+
                     <source src={require('../assets/videos/Resident.mp4')} type="video/mp4" />
+
                 </video>
 
             </div>
@@ -46,9 +48,9 @@ const Home = (props: imgPopup) => {
                             <p className="card-text card-text-home px-5">Resident brings chefs from Michelin restaurants to
                                 host speakeasy dinners in luxury penthouses, townhouses,
                                 and lofts around New York City.</p>
-                            <p className="card-text card-text-home px-5">Reserve your tickets below, or <span className="book-private">book a private
-                                event here.</span></p>
-                            <Link className="btn btn-outline-dark m-5" role="button"  to="/reserve" id="up-coming-dinner-button">
+                            <p className="card-text card-text-home px-5">Reserve your tickets below, or <Link className="book-private" to={'/submitPrivate'}>book a private
+                                event here.</Link></p>
+                            <Link className="btn btn-outline-dark m-5" role="button" to="/reserve" id="up-coming-dinner-button">
                                 <div className="text-dinner-button">
                                     SEE UP COMING DINNERS
                                 </div>

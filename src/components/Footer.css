@@ -18,11 +18,44 @@ footer {
 
  }
 
- .footer-link:visited,.footer-link:hover,.footer-link:focus,.footer-link:active {
+ 
+ .footer-link {
+
+   font-size: calc((0.75) * 0.3vw + 0.75rem);
+   color: var( --footer-font-color);
+   text-decoration-color: var( --footer-font-color);
+   font-weight: 600;
+
+}
+
+ .footer-grid .footer-box .footer-link:visited{
 
     color: var( --footer-font-color);
+    text-decoration-color: var( --footer-font-color);
 
  }
+
+ .footer-grid .footer-box .footer-link:hover {
+
+   color: var( --footer-font-color);
+   text-decoration-color: var( --footer-font-color);
+
+}
+
+.footer-grid .footer-box .footer-link:focus {
+
+   color: var( --footer-font-color);
+   text-decoration-color: var( --footer-font-color);
+
+}
+
+.footer-grid .footer-box .footer-link:active {
+
+   color: var( --footer-font-color);
+   text-decoration-color: var( --footer-font-color);
+
+}
+
 
  svg {
     color: whitesmoke;

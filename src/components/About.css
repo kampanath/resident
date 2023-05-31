@@ -168,6 +168,7 @@ div p.card-text-about {
   .text-book-private-dinner-button {
       padding-left: 2em;
       padding-right: 2em;
+    color:var(--main-font);
      
   
      

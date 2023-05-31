@@ -105,7 +105,14 @@ a.nav-link:hover  {
    }
 
    #reserve-button {
+    margin-top:3em;
     height: 5.5em;
+    padding-left: 2em;
+    padding-top: 0.75em;
+
+    padding-right: 2em;
+    font-size: 1rem;
+
  }
    
 }
